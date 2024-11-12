@@ -1,0 +1,6 @@
+@sigechip.API_HostAddress = http://localhost:5023
+
+GET {{sigechip.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

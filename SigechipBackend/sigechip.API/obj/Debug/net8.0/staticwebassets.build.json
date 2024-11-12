@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IbCwn0a7bYNQdVYPYupCvkaEwNeEq+L5bb+UCVeVDcw=",
+  "Source": "sigechip.API",
+  "BasePath": "_content/sigechip.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
