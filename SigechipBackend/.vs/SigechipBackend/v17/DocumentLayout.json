@@ -3,68 +3,188 @@
   "WorkspaceRootPath": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.infrastructure\\persistence\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|solutionrelative:sigechip.infrastructure\\persistence\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|solutionrelative:sigechip.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\interfaces\\itipodocumentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\itipodocumentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.api\\controllers\\especiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|solutionrelative:sigechip.api\\controllers\\especiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\interfaces\\irazarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\irazarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.api\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|solutionrelative:sigechip.api\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\interfaces\\ipropietariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\ipropietariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.api\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|solutionrelative:sigechip.api\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\interfaces\\imascotarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\imascotarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.api\\controllers\\propietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|solutionrelative:sigechip.api\\controllers\\propietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.api\\controllers\\razacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|solutionrelative:sigechip.api\\controllers\\razacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\interfaces\\iespecierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\iespecierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.api\\controllers\\tipodocumentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|solutionrelative:sigechip.api\\controllers\\tipodocumentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\entities\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\entities\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\entities\\especie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\interfaces\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\interfaces\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\interfaces\\iespecieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\interfaces\\iespecieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|solutionrelative:sigechip.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|solutionrelative:sigechip.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.api\\sigechip.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|solutionrelative:sigechip.api\\sigechip.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF111DCD-BF31-4282-97A1-E1EB945ACEC1}|sigechip.API\\sigechip.API.csproj|solutionrelative:sigechip.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.infrastructure\\repositories\\mascotarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|solutionrelative:sigechip.infrastructure\\repositories\\mascotarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\services\\especieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\services\\especieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\services\\generoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\services\\generoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\services\\mascotaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\services\\mascotaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\services\\propietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\services\\propietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\services\\razaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\services\\razaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\services\\tipodocumentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\services\\tipodocumentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\entities\\especie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\entities\\especie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\entities\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\entities\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\interfaces\\itipodocumentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\interfaces\\itipodocumentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\entities\\raza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\entities\\raza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\interfaces\\irazaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\interfaces\\irazaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\entities\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\entities\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\interfaces\\ipropietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\interfaces\\ipropietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.domain\\entities\\propietario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\interfaces\\imascotaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\interfaces\\imascotaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.application\\interfaces\\igeneroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\interfaces\\igeneroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.infrastructure\\repositories\\tipodocumentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|solutionrelative:sigechip.infrastructure\\repositories\\tipodocumentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.infrastructure\\repositories\\razarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|solutionrelative:sigechip.infrastructure\\repositories\\razarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.infrastructure\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|solutionrelative:sigechip.infrastructure\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.infrastructure\\repositories\\propietariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|solutionrelative:sigechip.infrastructure\\repositories\\propietariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.infrastructure\\persistence\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|solutionrelative:sigechip.infrastructure\\persistence\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.infrastructure\\sigechip.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|solutionrelative:sigechip.infrastructure\\sigechip.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.infrastructure\\repositories\\especierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|solutionrelative:sigechip.infrastructure\\repositories\\especierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\interfaces\\iespecierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\iespecierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\interfaces\\itipodocumentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\itipodocumentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\interfaces\\irazarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\irazarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\interfaces\\ipropietariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\ipropietariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\interfaces\\imascotarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\interfaces\\imascotarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\entities\\propietario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\entities\\propietario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DC1EFBC-E826-4E54-BFA1-51F35B08F4AF}|sigechip.Infrastructure\\sigechip.Infrastructure.csproj|solutionrelative:sigechip.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\entities\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\entities\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|c:\\users\\johnr\\documents\\documentos\\jylneuralnet\\projectosexternos\\sigechip_lite\\sigechipbackend\\sigechip.core.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7383ABEF-257C-43D8-ABB9-A844EC4E4AC1}|sigechip.Core.Application\\sigechip.Core.Application.csproj|solutionrelative:sigechip.core.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\entities\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\entities\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\entities\\raza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\entities\\raza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.core.domain\\entities\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FE3D9-49EB-40A4-A86E-34A0295CCE24}|sigechip.Core.Domain\\sigechip.Core.Domain.csproj|solutionrelative:sigechip.core.domain\\entities\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +194,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,33 +230,441 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneroController.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\GeneroController.cs",
+              "RelativeDocumentMoniker": "sigechip.API\\Controllers\\GeneroController.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\GeneroController.cs",
+              "RelativeToolTip": "sigechip.API\\Controllers\\GeneroController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T01:09:04.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EspecieController.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\EspecieController.cs",
+              "RelativeDocumentMoniker": "sigechip.API\\Controllers\\EspecieController.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\EspecieController.cs",
+              "RelativeToolTip": "sigechip.API\\Controllers\\EspecieController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T01:08:47.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Domain\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "sigechip.Core.Domain\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T04:26:27.081Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "sigechip.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "sigechip.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:50:40.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MascotaController.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\MascotaController.cs",
+              "RelativeDocumentMoniker": "sigechip.API\\Controllers\\MascotaController.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\MascotaController.cs",
+              "RelativeToolTip": "sigechip.API\\Controllers\\MascotaController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T01:09:08.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PropietarioController.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\PropietarioController.cs",
+              "RelativeDocumentMoniker": "sigechip.API\\Controllers\\PropietarioController.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\PropietarioController.cs",
+              "RelativeToolTip": "sigechip.API\\Controllers\\PropietarioController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T01:09:14.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RazaController.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\RazaController.cs",
+              "RelativeDocumentMoniker": "sigechip.API\\Controllers\\RazaController.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\RazaController.cs",
+              "RelativeToolTip": "sigechip.API\\Controllers\\RazaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T01:09:20.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TipoDocumentoController.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\TipoDocumentoController.cs",
+              "RelativeDocumentMoniker": "sigechip.API\\Controllers\\TipoDocumentoController.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\TipoDocumentoController.cs",
+              "RelativeToolTip": "sigechip.API\\Controllers\\TipoDocumentoController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T01:10:07.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GenericService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\GenericService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Services\\GenericService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\GenericService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Services\\GenericService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwCkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T02:02:41.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IGenericService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Interfaces\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IGenericService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Interfaces\\IGenericService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T02:02:01.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEspecieService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IEspecieService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Interfaces\\IEspecieService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IEspecieService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Interfaces\\IEspecieService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T01:58:57.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "sigechip.API.csproj",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\sigechip.API.csproj",
+              "RelativeDocumentMoniker": "sigechip.API\\sigechip.API.csproj",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\sigechip.API.csproj",
+              "RelativeToolTip": "sigechip.API\\sigechip.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T02:36:09.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\appsettings.json",
+              "RelativeDocumentMoniker": "sigechip.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\appsettings.json",
+              "RelativeToolTip": "sigechip.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T02:37:43.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "sigechip.API\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "sigechip.API\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T01:10:23.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Program.cs",
+              "RelativeDocumentMoniker": "sigechip.API\\Program.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.API\\Program.cs",
+              "RelativeToolTip": "sigechip.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T02:23:57.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITipoDocumentoService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\ITipoDocumentoService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Interfaces\\ITipoDocumentoService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\ITipoDocumentoService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Interfaces\\ITipoDocumentoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T01:59:54.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EspecieService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\EspecieService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Services\\EspecieService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\EspecieService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Services\\EspecieService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T02:02:47.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Especie.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\Especie.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Domain\\Entities\\Especie.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\Especie.cs",
+              "RelativeToolTip": "sigechip.Core.Domain\\Entities\\Especie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T04:16:14.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GeneroService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\GeneroService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Services\\GeneroService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\GeneroService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Services\\GeneroService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T02:03:58.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MascotaService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\MascotaService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Services\\MascotaService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\MascotaService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Services\\MascotaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T02:04:06.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PropietarioService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\PropietarioService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Services\\PropietarioService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\PropietarioService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Services\\PropietarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T02:04:23.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RazaService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\RazaService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Services\\RazaService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\RazaService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Services\\RazaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T02:04:29.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TipoDocumentoService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\TipoDocumentoService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Services\\TipoDocumentoService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Services\\TipoDocumentoService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Services\\TipoDocumentoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T02:04:35.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MascotaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\MascotaRepository.cs",
+              "RelativeDocumentMoniker": "sigechip.Infrastructure\\Repositories\\MascotaRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\MascotaRepository.cs",
+              "RelativeToolTip": "sigechip.Infrastructure\\Repositories\\MascotaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:49:39.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IRazaService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IRazaService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Interfaces\\IRazaService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IRazaService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Interfaces\\IRazaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T01:59:47.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IPropietarioService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IPropietarioService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Interfaces\\IPropietarioService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IPropietarioService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Interfaces\\IPropietarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T01:59:17.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IMascotaService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IMascotaService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Interfaces\\IMascotaService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IMascotaService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Interfaces\\IMascotaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T01:59:09.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IGeneroService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IGeneroService.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Application\\Interfaces\\IGeneroService.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Interfaces\\IGeneroService.cs",
+              "RelativeToolTip": "sigechip.Core.Application\\Interfaces\\IGeneroService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T01:59:04.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GeneroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\GeneroRepository.cs",
+              "RelativeDocumentMoniker": "sigechip.Infrastructure\\Repositories\\GeneroRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\GeneroRepository.cs",
+              "RelativeToolTip": "sigechip.Infrastructure\\Repositories\\GeneroRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:49:32.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "AplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Persistence\\AplicationDbContext.cs",
               "RelativeDocumentMoniker": "sigechip.Infrastructure\\Persistence\\AplicationDbContext.cs",
               "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Persistence\\AplicationDbContext.cs",
               "RelativeToolTip": "sigechip.Infrastructure\\Persistence\\AplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:44:04.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:44:04.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IMascotaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IMascotaRepository.cs",
-              "RelativeDocumentMoniker": "sigechip.Core.Domain\\Interfaces\\IMascotaRepository.cs",
-              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IMascotaRepository.cs",
-              "RelativeToolTip": "sigechip.Core.Domain\\Interfaces\\IMascotaRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
+              "DocumentIndex": 31,
+              "Title": "PropietarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\PropietarioRepository.cs",
+              "RelativeDocumentMoniker": "sigechip.Infrastructure\\Repositories\\PropietarioRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\PropietarioRepository.cs",
+              "RelativeToolTip": "sigechip.Infrastructure\\Repositories\\PropietarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:25:20.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T00:49:52.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 29,
+              "Title": "RazaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\RazaRepository.cs",
+              "RelativeDocumentMoniker": "sigechip.Infrastructure\\Repositories\\RazaRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\RazaRepository.cs",
+              "RelativeToolTip": "sigechip.Infrastructure\\Repositories\\RazaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:50:16.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TipoDocumentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\TipoDocumentoRepository.cs",
+              "RelativeDocumentMoniker": "sigechip.Infrastructure\\Repositories\\TipoDocumentoRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\TipoDocumentoRepository.cs",
+              "RelativeToolTip": "sigechip.Infrastructure\\Repositories\\TipoDocumentoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:50:23.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "sigechip.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\sigechip.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "sigechip.Infrastructure\\sigechip.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\sigechip.Infrastructure.csproj",
+              "RelativeToolTip": "sigechip.Infrastructure\\sigechip.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T01:49:17.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EspecieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\EspecieRepository.cs",
+              "RelativeDocumentMoniker": "sigechip.Infrastructure\\Repositories\\EspecieRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Repositories\\EspecieRepository.cs",
+              "RelativeToolTip": "sigechip.Infrastructure\\Repositories\\EspecieRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:42:59.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IEspecieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IEspecieRepository.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Domain\\Interfaces\\IEspecieRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IEspecieRepository.cs",
+              "RelativeToolTip": "sigechip.Core.Domain\\Interfaces\\IEspecieRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T04:25:03.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "IGeneroRepository.cs",
               "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IGeneroRepository.cs",
               "RelativeDocumentMoniker": "sigechip.Core.Domain\\Interfaces\\IGeneroRepository.cs",
@@ -144,25 +672,23 @@
               "RelativeToolTip": "sigechip.Core.Domain\\Interfaces\\IGeneroRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:25:11.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:25:11.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IEspecieRepository.cs",
-              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IEspecieRepository.cs",
-              "RelativeDocumentMoniker": "sigechip.Core.Domain\\Interfaces\\IEspecieRepository.cs",
-              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IEspecieRepository.cs",
-              "RelativeToolTip": "sigechip.Core.Domain\\Interfaces\\IEspecieRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "DocumentIndex": 40,
+              "Title": "IMascotaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IMascotaRepository.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Domain\\Interfaces\\IMascotaRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IMascotaRepository.cs",
+              "RelativeToolTip": "sigechip.Core.Domain\\Interfaces\\IMascotaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:25:03.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:25:20.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 39,
               "Title": "IPropietarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IPropietarioRepository.cs",
               "RelativeDocumentMoniker": "sigechip.Core.Domain\\Interfaces\\IPropietarioRepository.cs",
@@ -170,12 +696,11 @@
               "RelativeToolTip": "sigechip.Core.Domain\\Interfaces\\IPropietarioRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:25:26.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:25:26.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 38,
               "Title": "IRazaRepository.cs",
               "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IRazaRepository.cs",
               "RelativeDocumentMoniker": "sigechip.Core.Domain\\Interfaces\\IRazaRepository.cs",
@@ -183,25 +708,35 @@
               "RelativeToolTip": "sigechip.Core.Domain\\Interfaces\\IRazaRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:25:33.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:25:33.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 37,
               "Title": "ITipoDocumentoRepository.cs",
               "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\ITipoDocumentoRepository.cs",
               "RelativeDocumentMoniker": "sigechip.Core.Domain\\Interfaces\\ITipoDocumentoRepository.cs",
               "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\ITipoDocumentoRepository.cs",
               "RelativeToolTip": "sigechip.Core.Domain\\Interfaces\\ITipoDocumentoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:25:41.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:25:41.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 41,
+              "Title": "Propietario.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\Propietario.cs",
+              "RelativeDocumentMoniker": "sigechip.Core.Domain\\Entities\\Propietario.cs",
+              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\Propietario.cs",
+              "RelativeToolTip": "sigechip.Core.Domain\\Entities\\Propietario.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T04:15:06.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "Genero.cs",
               "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\Genero.cs",
               "RelativeDocumentMoniker": "sigechip.Core.Domain\\Entities\\Genero.cs",
@@ -209,38 +744,11 @@
               "RelativeToolTip": "sigechip.Core.Domain\\Entities\\Genero.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:16:05.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:16:05.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "sigechip.Core.Domain\\Interfaces\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Interfaces\\IGenericRepository.cs",
-              "RelativeToolTip": "sigechip.Core.Domain\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:26:27.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Especie.cs",
-              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\Especie.cs",
-              "RelativeDocumentMoniker": "sigechip.Core.Domain\\Entities\\Especie.cs",
-              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\Especie.cs",
-              "RelativeToolTip": "sigechip.Core.Domain\\Entities\\Especie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:16:14.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 44,
               "Title": "Raza.cs",
               "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\Raza.cs",
               "RelativeDocumentMoniker": "sigechip.Core.Domain\\Entities\\Raza.cs",
@@ -248,12 +756,11 @@
               "RelativeToolTip": "sigechip.Core.Domain\\Entities\\Raza.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:16:21.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:16:21.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 45,
               "Title": "TipoDocumento.cs",
               "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\TipoDocumento.cs",
               "RelativeDocumentMoniker": "sigechip.Core.Domain\\Entities\\TipoDocumento.cs",
@@ -261,25 +768,11 @@
               "RelativeToolTip": "sigechip.Core.Domain\\Entities\\TipoDocumento.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:15:55.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:15:55.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Propietario.cs",
-              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\Propietario.cs",
-              "RelativeDocumentMoniker": "sigechip.Core.Domain\\Entities\\Propietario.cs",
-              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\Propietario.cs",
-              "RelativeToolTip": "sigechip.Core.Domain\\Entities\\Propietario.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:15:06.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 43,
               "Title": "Mascota.cs",
               "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\Entities\\Mascota.cs",
               "RelativeDocumentMoniker": "sigechip.Core.Domain\\Entities\\Mascota.cs",
@@ -287,34 +780,7 @@
               "RelativeToolTip": "sigechip.Core.Domain\\Entities\\Mascota.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAAD8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:13:47.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "sigechip.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "sigechip.Infrastructure\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:10:58.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "sigechip.Core.Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Application\\Class1.cs",
-              "RelativeToolTip": "sigechip.Core.Application\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T04:09:39.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T04:13:47.347Z"
             }
           ]
         },

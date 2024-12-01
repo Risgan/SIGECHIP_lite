@@ -1,0 +1,92 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    height: 31px;
+    flex-shrink: 0;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.izquierda {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.derecha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--White);
+    margin-right: 20px;
+    gap: 20px;
+}
+
+
+.nombre {
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.p-button {
+    // padding: 0;
+    border: none;
+    color: var(--AzulOscuro);
+
+    .pi {
+        font-size: 1.5rem;
+    }
+
+}
+
+.icon-pet {
+    height: 152px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+
+    img {
+        height: 100%;
+        border-radius: 50%;
+    }
+}
+
+.input-id {
+    margin-bottom: 25px;
+}
+
+.input-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+    .p-button {
+        padding: 10px;
+        border-radius: 30px;
+        color: var(--White);
+    }
+}
+
+.p-menu .p-submenu-header {
+    color: var(--White);
+    background: var(--AzulOscuro);
+    border-radius: 14px;
+    font-size: 18px;
+}

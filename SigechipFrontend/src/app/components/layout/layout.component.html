@@ -1,0 +1,54 @@
+<p-toast />
+<div class="nav bgcolorazulclaro">
+    <div class="izquierda">
+        <div class="menu">
+            <div class="button">
+                <p-button icon="pi pi-bars" (onClick)="menu.toggle($event)" [outlined]="true" severity="contrast" />
+                <p-menu #menu [model]="items" [popup]="true" />
+            </div>
+        </div>
+        <div class="nav-logo">
+            <img src="/assets/Images/Logo2.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="derecha">
+        <div class="nombre">
+            Nombre Usuario
+        </div>
+        <div class="buscador">
+            <p-confirmPopup />
+            <p-button icon="pi pi-id-card" [style]="{'color': 'var(--white)'}" [outlined]="true" severity="contrast"
+                (click)="showCardId($event)" />
+            <!-- <i class="pi pi-id-card" style="font-size: 1.5rem"></i> -->
+        </div>
+
+        <div class="usuario">
+            <p-button icon="pi pi-user" [style]="{'color': 'var(--white)'}" [outlined]="true" severity="contrast" />
+            <!-- <i class="pi pi-user" style="font-size: 1.5rem"></i> -->
+        </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<p-dialog header="Buscar Por ID Mascota" [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }">
+    <div class="p-fluid p-formgrid p-grid">
+        <div class="p-field p-col-12 icon-pet">
+            <img src="/assets/Images/iconDoc.webp" alt="Icon Doc" />
+        </div>
+        <div class="p-field p-col-12 input-id">
+            <p-floatLabel>
+                <input pInputText id="username" [(ngModel)]="idMascota" />
+                <label for="username">Id Mascota</label>
+            </p-floatLabel>
+            <!-- <label for="idCard">ID Card</label>
+            <input id="idCard" type="text" pInputText /> -->
+        </div>
+        <div class="p-field p-col-12 input-button">
+            <p-button label="Buscar" icon="pi pi-search" (click)="searchByIdCard()"
+                [loading]="_loadingButton"></p-button>
+        </div>
+    </div>
+</p-dialog>

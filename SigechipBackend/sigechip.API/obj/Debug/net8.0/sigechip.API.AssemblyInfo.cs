@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sigechip.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12edb1f802a0a000e48b3f46ee0d5e90789fa63b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+833e9d64a3db73a095cec2bec6ed236b9c9279ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("sigechip.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sigechip.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

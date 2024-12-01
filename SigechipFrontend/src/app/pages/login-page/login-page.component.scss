@@ -1,0 +1,196 @@
+.contendor {
+    // background: var(--secondary);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100vh;
+    height: 100vh;
+    flex-shrink: 0;
+    border-radius: 0px 600px 600px 600px;
+    background: linear-gradient(227deg, #002BAF 0%, #001658 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        background: rgba(0, 0, 0, 0.0);
+        width: 90%;
+    }
+}
+
+.small-logo {
+    display: none;
+    width: 100%;
+}
+
+.small-image {
+    display: none;
+}
+
+
+.circle1 {
+    background: var(--Lila);
+    // width: 330px;
+    // height: 330px;
+    top: -149px;
+    right: 122px;
+    // width: 330px;
+    // height: 330px;
+    width: 25vw;
+    height: 25vw;
+    position: fixed;
+    border-radius: 50%;
+}
+
+.circle2 {
+    background: var(--Amarillo);
+    width: 353px;
+    height: 353px;
+    bottom: -154px;
+    right: -32px;
+    // width: 330px;
+    // height: 330px;
+    width: 30vw;
+    height: 30vw;
+    position: fixed;
+    border-radius: 50%;
+}
+
+
+.titulo {
+    h1 {
+        font-family: Inter;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: var(--AzulTitle);
+        text-align: center;
+    }
+}
+
+.tarjeta {
+    z-index: 2;
+    width: 50vw;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    justify-content: center;
+    // background: red;
+}
+
+.formulario {
+    height: 362px;
+    width: 285px;
+    // background: blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p-iconField {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    /* Ajusta según sea necesario */
+}
+
+
+.underline-container input {
+    border: none;
+    border-bottom: 2px solid #000;
+    /* Grosor y color de la línea inferior */
+    border-radius: 0;
+    /* Elimina los bordes redondeados */
+}
+
+.user-pass {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+:host ::ng-deep .p-button {
+    height: 31px;
+    width: 202px;
+    border-radius: 12px;
+    
+}
+
+// @media (max-width: 1175px) {
+@media (max-width: 1000px) {
+    .contendor {
+        flex-direction: column;
+        align-items: center;
+        height: 80vh;
+    }
+
+    .logo {
+        width: 135vw;
+        height: 135vw;
+        position: fixed;
+        top: -253px;
+        left: -96px;
+    }
+
+    .small-logo {
+        display: block;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 65px;
+        position: relative;
+    }
+
+    .small-image {
+        display: block;
+        width: 84vw;
+    }
+
+    .large-image {
+        display: none;
+    }
+
+    .tarjeta {
+        margin-right: 0;
+
+        // border-radius: 20px;
+        // background: rgba(255, 255, 255, 0.42);
+        // box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 2px -2px 16px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .circle1 {
+        top: 40vh;
+        right: -50px;
+        width: 60vw;
+        height: 60vw;
+    }
+    
+    .circle2 {
+        left: -48px;
+        bottom: -39px;
+        width: 60vw;
+        height: 60vw;
+    }
+    
+}
