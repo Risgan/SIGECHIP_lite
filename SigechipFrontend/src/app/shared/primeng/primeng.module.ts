@@ -10,6 +10,11 @@ import { ConfirmPopupModule } from 'primeng/confirmpopup';
 import { ToastModule } from 'primeng/toast';
 import { DialogModule } from 'primeng/dialog';
 import { MenuModule } from 'primeng/menu';
+import { CarouselModule } from 'primeng/carousel';
+import { TagModule } from 'primeng/tag';
+import { CardModule } from 'primeng/card';
+import { DropdownModule } from 'primeng/dropdown';
+import { CheckboxModule } from 'primeng/checkbox';
 
 const modules = [
   ButtonModule,
@@ -21,7 +26,12 @@ const modules = [
   ConfirmPopupModule,
   ToastModule,
   DialogModule,
-  MenuModule
+  MenuModule,
+  CarouselModule,
+  TagModule,
+  DropdownModule,
+  CardModule,
+  CheckboxModule
 ];
 
 @NgModule({

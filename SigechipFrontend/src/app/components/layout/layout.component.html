@@ -21,12 +21,10 @@
             <p-confirmPopup />
             <p-button icon="pi pi-id-card" [style]="{'color': 'var(--white)'}" [outlined]="true" severity="contrast"
                 (click)="showCardId($event)" />
-            <!-- <i class="pi pi-id-card" style="font-size: 1.5rem"></i> -->
         </div>
 
         <div class="usuario">
-            <p-button icon="pi pi-user" [style]="{'color': 'var(--white)'}" [outlined]="true" severity="contrast" />
-            <!-- <i class="pi pi-user" style="font-size: 1.5rem"></i> -->
+            <p-button icon="pi pi-user" [style]="{'color': 'var(--white)'}" [outlined]="true" severity="contrast" (onClick)="redirect('/user')" />
         </div>
     </div>
 </div>

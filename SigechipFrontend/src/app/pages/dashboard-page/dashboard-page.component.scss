@@ -1,0 +1,40 @@
+.content{
+    padding: 15px;
+}
+
+
+.relative .mx-auto{
+    display: flex;
+    justify-content: center;
+}
+
+
+.p-carousel .p-carousel-item {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    height: 100%;             
+}
+
+.p-carousel img {
+    max-width: 100%; 
+    height: 350px;
+}
+
+
+.p-carousel-prev, .p-carousel-next {
+    svg {
+        width: 3rem;
+        height: 3rem; 
+        color: var(--AzulTitle);
+    }
+}
+
+.p-carousel-prev:hover, .p-carousel-next:hover {
+    color: darkred !important; 
+}
+
+// .p-carousel img {
+//     max-width: 50%;
+//     height: auto;
+// }

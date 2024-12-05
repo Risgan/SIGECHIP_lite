@@ -24,17 +24,33 @@ export class LayoutComponent {
       label: 'Menu',
       items: [
         {
+          label: 'Home',
+          icon: 'bi bi-house',
+          command: () => {
+            this.router.navigate(['/home']);
+          }
+        },
+        {
           label: 'Mascotas',
-          icon: 'bi bi-postcard'
-          // icon: 'pi pi-refresh'
+          icon: 'bi bi-postcard',
+          command: () => {
+            this.router.navigate(['/pet']);
+          }
         },
         {
           label: 'Contacto',
-          icon: 'bi bi-file-person'
+          icon: 'bi bi-file-person',
+          command: () => {
+            // this.router.navigate(['/user']);
+            this.router.navigate(['/contact']);
+          }          
         },
         {
           label: 'Cerrar Sesión',
-          icon: 'pi pi-sign-out'
+          icon: 'pi pi-sign-out',
+          command: () => {
+            this.router.navigate(['/login']);
+          }
         }
       ]
     }
@@ -61,5 +77,9 @@ export class LayoutComponent {
 
     }, 2000);
 
+  }
+
+  redirect(url: string) {
+    this.router.navigate([url]);    
   }
 }
