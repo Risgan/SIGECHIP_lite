@@ -1,0 +1,49 @@
+/* mascota-form.component.scss */
+.mascota-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    .p-field {
+      margin-bottom: 1.5rem;
+  
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+      }
+  
+      .p-error {
+        color: #f44336;
+        font-size: 0.875rem;
+      }
+  
+      input,
+      textarea,
+      .p-dropdown,
+      .p-calendar,
+      .p-inputnumber,
+      .p-fileupload {
+        width: 100%;
+      }
+    }
+  
+    .p-field-checkbox {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+  
+      label {
+        margin-left: 0.5rem;
+        font-weight: 600;
+      }
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,153 @@
+<!-- mascota-form.component.html -->
+<div class="mascota-form-container">
+    <form [formGroup]="mascotaForm" (ngSubmit)="onSubmit()">
+      <div class="p-fluid">
+        <!-- ID Propietario -->
+        <div class="p-field">
+          <label >ID Propietario</label>
+          <input  type="text" pInputText formControlName="id_propietario" />
+          <!-- <small *ngIf="mascotaForm.value.id_propietario.invalid && mascotaForm.value.id_propietario.touched" class="p-error">
+            ID Propietario es requerido.
+          </small> -->
+        </div>
+  
+        <!-- Tipo Documento -->
+        <div class="p-field">
+          <label for="tipo_documento">Tipo de Documento</label>
+          <p-dropdown
+            id="tipo_documento"
+            [options]="[
+              { label: 'DNI', value: 1 },
+              { label: 'Carné de Extranjería', value: 2 },
+              { label: 'Pasaporte', value: 3 }
+            ]"
+            placeholder="Selecciona Tipo de Documento"
+            formControlName="tipo_documento">
+          </p-dropdown>
+          <small *ngIf="mascotaForm.value.tipo_documento.invalid && mascotaForm.value.tipo_documento.touched" class="p-error">
+            Tipo de Documento es requerido.
+          </small>
+        </div>
+  
+        <!-- Documento -->
+        <div class="p-field">
+          <label for="documento">Documento</label>
+          <input id="documento" type="text" pInputText formControlName="documento" />
+          <small *ngIf="mascotaForm.value.documento.invalid && mascotaForm.value.documento.touched" class="p-error">
+            Documento es requerido y debe ser único.
+          </small>
+        </div>
+  
+        <!-- Nombre -->
+        <div class="p-field">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="text" pInputText formControlName="nombre" />
+          <small *ngIf="mascotaForm.value.nombre.invalid && mascotaForm.value.nombre.touched" class="p-error">
+            Nombre es requerido.
+          </small>
+        </div>
+  
+        <!-- Especie -->
+        <div class="p-field">
+          <label for="id_especie">Especie</label>
+          <p-dropdown
+            id="id_especie"
+            [options]="especies"
+            placeholder="Selecciona Especie"
+            formControlName="id_especie">
+          </p-dropdown>
+          <small *ngIf="mascotaForm.value.id_especie.invalid && mascotaForm.value.id_especie.touched" class="p-error">
+            Especie es requerida.
+          </small>
+        </div>
+  
+        <!-- Raza -->
+        <div class="p-field">
+          <label for="id_raza">Raza</label>
+          <p-dropdown
+            id="id_raza"
+            [options]="razas"
+            placeholder="Selecciona Raza"
+            formControlName="id_raza">
+          </p-dropdown>
+          <small *ngIf="mascotaForm.value.id_raza.invalid && mascotaForm.value.id_raza.touched" class="p-error">
+            Raza es requerida.
+          </small>
+        </div>
+  
+        <!-- Género -->
+        <div class="p-field">
+          <label for="id_genero">Género</label>
+          <p-dropdown
+            id="id_genero"
+            [options]="generos"
+            placeholder="Selecciona Género"
+            formControlName="id_genero">
+          </p-dropdown>
+          <small *ngIf="mascotaForm.value.id_genero.invalid && mascotaForm.value.id_genero.touched" class="p-error">
+            Género es requerido.
+          </small>
+        </div>
+  
+        <!-- Fecha de Nacimiento -->
+        <div class="p-field">
+          <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+          <p-calendar
+            id="fecha_nacimiento"
+            formControlName="fecha_nacimiento"
+            dateFormat="yy-mm-dd"
+            showIcon="true">
+          </p-calendar>
+          <small *ngIf="mascotaForm.value.fecha_nacimiento.invalid && mascotaForm.value.fecha_nacimiento.touched" class="p-error">
+            Fecha de Nacimiento es requerida.
+          </small>
+        </div>
+  
+        <!-- Peso -->
+        <div class="p-field">
+          <label for="peso">Peso (kg)</label>
+          <p-inputNumber
+            id="peso"
+            formControlName="peso"
+            [min]="0"
+            mode="decimal"
+            [showButtons]="true">
+          </p-inputNumber>
+        </div>
+  
+        <!-- Foto -->
+        <div class="p-field">
+          <label for="foto">Foto</label>
+          <p-fileUpload
+            name="foto"
+            url="http://your-upload-url.com"
+            accept="image/*"
+            maxFileSize="1000000"
+            formControlName="foto">
+          </p-fileUpload>
+        </div>
+  
+        <!-- Descripción -->
+        <div class="p-field">
+          <label for="descripcion">Descripción</label>
+          <textarea id="descripcion" pInputText formControlName="descripcion" rows="5"></textarea>
+        </div>
+  
+        <!-- Activo -->
+        <div class="p-field-checkbox">
+          <p-checkbox
+            inputId="activo"
+            formControlName="activo"
+            binary="true">
+          </p-checkbox>
+          <label for="activo">Activo</label>
+        </div>
+  
+        <!-- Botón de Envío -->
+        <div class="p-field">
+          <button pButton type="submit" label="Guardar" [disabled]="mascotaForm.invalid"></button>
+        </div>
+      </div>
+    </form>
+  </div>
+  
