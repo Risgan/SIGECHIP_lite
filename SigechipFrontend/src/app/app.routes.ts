@@ -8,6 +8,7 @@ import { PetPageComponent } from './pages/pet-page/pet-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { UserPageComponent } from './pages/user-page/user-page.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { PetDetailPageComponent } from './pages/pet-detail-page/pet-detail-page.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/login', pathMatch: 'full' }, // Redirecciona a la página de inicio
@@ -25,6 +26,10 @@ export const routes: Routes = [
             {
                 path: 'pet',
                 component: PetPageComponent,
+            },
+            {
+                path: 'pet/:id',
+                component: PetDetailPageComponent,
             },
             {
                 path: 'user',

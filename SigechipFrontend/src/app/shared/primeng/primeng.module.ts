@@ -15,6 +15,7 @@ import { TagModule } from 'primeng/tag';
 import { CardModule } from 'primeng/card';
 import { DropdownModule } from 'primeng/dropdown';
 import { CheckboxModule } from 'primeng/checkbox';
+import { TooltipModule } from 'primeng/tooltip';
 
 const modules = [
   ButtonModule,
@@ -31,7 +32,8 @@ const modules = [
   TagModule,
   DropdownModule,
   CardModule,
-  CheckboxModule
+  CheckboxModule,
+  TooltipModule 
 ];
 
 @NgModule({

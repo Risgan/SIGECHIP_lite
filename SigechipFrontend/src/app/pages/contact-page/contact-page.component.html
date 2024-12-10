@@ -1,1 +1,25 @@
-<p>contact-page works!</p>
+<p-card class="contact-card">
+    <ng-template pTemplate="header">
+      <h2>Datos de Contacto de Mascota</h2>
+    </ng-template>
+  
+    <form (ngSubmit)="onSubmit()" class="contact-form">
+      <div class="p-field">
+        <label for="ownerName" class="p-d-block">Nombre del Propietario</label>
+        <input id="ownerName" type="text" pInputText [(ngModel)]="contact.ownerName" name="ownerName" required />
+      </div>
+  
+      <div class="p-field">
+        <label for="phone" class="p-d-block">Teléfono</label>
+        <input id="phone" type="tel" pInputText [(ngModel)]="contact.phone" name="phone" required />
+      </div>
+  
+      <div class="p-field">
+        <label for="email" class="p-d-block">Correo Electrónico</label>
+        <input id="email" type="email" pInputText [(ngModel)]="contact.email" name="email" required />
+      </div>
+  
+      <button pButton type="submit" label="Actualizar" class="p-button-outlined p-button-sm"></button>
+    </form>
+  </p-card>
+  

@@ -1,1 +1,41 @@
-<p>pet-page works!</p>
+<!-- Botón de Añadir -->
+<div class="head-button">
+  <p-button icon="pi pi-plus" severity="success" tooltipPosition="left" pTooltip="Nueva Mascota" class=""></p-button>
+</div>
+
+<!-- Contenedor de Tarjetas de Mascotas -->
+<div class="container-pets">
+
+  <div class="pet-cards-container">
+    @for (pet of pets; track $index) {
+    <div class="pet-card">
+      <!-- <ng-template pTemplate="header"> -->
+      <div class="pet-image">
+        <img [src]="pet.image" alt="{{ pet.name }}" />
+      </div>
+      <!-- </ng-template> -->
+
+      <div class="pet-info">
+        <div class="titulo">
+          <h1>{{ pet.name }}</h1>
+        </div>
+        <div class="information">
+          <p><strong>Raza:</strong> {{ pet.breed }}</p>
+          <p><strong>Edad:</strong> {{ pet.age }} años</p>
+          <p><strong>Género:</strong> {{ pet.gender }}</p>
+        </div>
+      </div>
+
+      <div class="content-buttons">
+        <div class="pet-buttons">
+          <p-button class="color-green" icon="pi pi-search" tooltipPosition="top" pTooltip="Ver Detalle"></p-button>
+          <p-button class="color-blue" icon="pi pi-pencil" tooltipPosition="top" pTooltip="Actualizar"></p-button>
+          <p-button class="color-red" icon="pi pi-trash" tooltipPosition="top" pTooltip="Eliminar"
+            (click)="deletePet(pet.id)"></p-button>
+        </div>
+      </div>
+    </div>
+    }
+
+  </div>
+</div>
