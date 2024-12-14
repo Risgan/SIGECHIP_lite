@@ -16,9 +16,11 @@ import { CardModule } from 'primeng/card';
 import { DropdownModule } from 'primeng/dropdown';
 import { CheckboxModule } from 'primeng/checkbox';
 import { TooltipModule } from 'primeng/tooltip';
+import { CalendarModule } from 'primeng/calendar';
 
 const modules = [
   ButtonModule,
+  CalendarModule,
   InputTextModule,
   FloatLabelModule,
   IconFieldModule,

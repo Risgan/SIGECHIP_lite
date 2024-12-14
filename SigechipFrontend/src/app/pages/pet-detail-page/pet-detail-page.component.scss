@@ -1,49 +1,108 @@
-/* mascota-form.component.scss */
-.mascota-form-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 2rem;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  
-    .p-field {
-      margin-bottom: 1.5rem;
-  
-      label {
-        display: block;
-        margin-bottom: 0.5rem;
-        font-weight: 600;
-      }
-  
-      .p-error {
-        color: #f44336;
-        font-size: 0.875rem;
-      }
-  
-      input,
-      textarea,
-      .p-dropdown,
-      .p-calendar,
-      .p-inputnumber,
-      .p-fileupload {
-        width: 100%;
-      }
-    }
-  
-    .p-field-checkbox {
-      display: flex;
-      align-items: center;
-      margin-bottom: 1.5rem;
-  
-      label {
-        margin-left: 0.5rem;
-        font-weight: 600;
-      }
-    }
-  
-    button {
-      width: 100%;
-    }
+.detail-container {
+  background: var(--LilaClaro);
+  width: 100%;
+  height: 95vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-card {
+  background: var(--White);
+  width: 1248px;
+  height: 750px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.detail-title {
+  color: #0028A1;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.detail-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  height: 70%;
+  // background: red;
+}
+
+.detail-form {
+  width: 50%;
+  padding-top: 30px;
+  // background: blue;
+  padding-left: 30px;
+}
+
+.detail-image {
+  width: 50%;
+  // background: green;
+}
+
+.detail-sub-target {
+  border-radius: 27px;
+  background: var(--Amarillo);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), -5px -5px 18px 6px rgba(0, 0, 0, 0.11) inset;
+  height: 100%;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    border-radius: 80px;
   }
-  
+
+
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.detail-col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-description {
+  width: 100%;
+}
+
+.p-inputtext {
+  margin: 0;
+  font-size: 20px;
+  padding: 2px;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  background: transparent;
+  width: 240px;
+  margin-top: 5px;
+}
+
+.p-dropdown {
+  border: none;
+
+}
+
+.p-dropdown .p-dropdown-trigger{
+  position: relative;
+  right: 31px;
+}

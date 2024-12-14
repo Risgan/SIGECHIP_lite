@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { PrimengModule } from '../../shared/primeng/primeng.module';
 import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
@@ -6,58 +6,42 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-pet-detail-page',
   standalone: true,
-  imports: [PrimengModule, CommonModule, ReactiveFormsModule],
+  imports: [PrimengModule, CommonModule, ReactiveFormsModule, FormsModule],
   templateUrl: './pet-detail-page.component.html',
   styleUrl: './pet-detail-page.component.scss',
   encapsulation: ViewEncapsulation.None
 })
-export class PetDetailPageComponent {
-  mascotaForm: FormGroup;
+export class PetDetailPageComponent implements OnInit {
 
-  especies = [
-    { label: 'Perro', value: 1 },
-    { label: 'Gato', value: 2 },
-    // Agrega más especies según sea necesario
-  ];
+  nombreMascota: string= 'Nombre Mascota';
+  value?: string = 'value';
 
-  razas = [
-    { label: 'Labrador', value: 1 },
-    { label: 'Siames', value: 2 },
-    // Agrega más razas según sea necesario
-  ];
+  tipoDocumentos: any[]= [
+    {label: 'Cédula de Ciudadanía', value: 'CC'},
+    {label: 'Tarjeta de Identidad', value: 'TI'},
+    {label: 'Cédula de Extranjería', value: 'CE'},
+    {label: 'Pasaporte', value: 'PA'}
+  ]
 
-  generos = [
-    { label: 'Macho', value: 1 },
-    { label: 'Hembra', value: 2 },
-    // Agrega más géneros según sea necesario
-  ];
+  selectTipoDoc: string = 'CC';
 
-  constructor(
-    private fb: FormBuilder
-  ) {
-    this.mascotaForm = this.fb.group({
-      id_propietario: ['', Validators.required],
-      tipo_documento: ['', Validators.required],
-      documento: [''],
-      nombre: ['', Validators.required],
-      id_especie: ['', Validators.required],
-      id_raza: ['', Validators.required],
-      id_genero: ['', Validators.required],
-      fecha_nacimiento: ['', Validators.required],
-      peso: [''],
-      foto: [''],
-      descripcion: [''],
-      activo: [true],
-      // Los campos fecha_creacion y fecha_actualizacion suelen manejarse automáticamente en el backend
-    });
+  petform!: FormGroup;
+
+  date: Date = new Date();
+  minDate: Date = new Date();
+  maxDate: Date = new Date();
+ 
+  constructor(private fb: FormBuilder) {
   }
 
-  onSubmit() {
-    if (this.mascotaForm.valid) {
-      console.log('Formulario enviado', this.mascotaForm.value);
-      // Aquí puedes manejar el envío del formulario, por ejemplo, enviarlo a un servicio
-    } else {
-      console.log('Formulario inválido');
-    }
+  ngOnInit() {
+    // this.petform = this.fb.group({
+    //   nombre: ['', Validators.required],
+    //   tipoDoc: ['', Validators.required],
+    //   numeroDoc: ['', Validators.required],
+    //   fechaNacimiento: ['', Validators.required]
+    // });
+    this.minDate = new Date();
+        this.maxDate = new Date();
   }
 }
