@@ -1,6 +1,6 @@
 <!-- Botón de Añadir -->
 <div class="head-button">
-  <p-button icon="pi pi-plus" severity="success" tooltipPosition="left" pTooltip="Nueva Mascota" class=""></p-button>
+  <p-button icon="pi pi-plus" severity="success" (click)="createPet()" tooltipPosition="left" pTooltip="Nueva Mascota" class=""></p-button>
 </div>
 
 <!-- Contenedor de Tarjetas de Mascotas -->
@@ -28,8 +28,10 @@
 
       <div class="content-buttons">
         <div class="pet-buttons">
-          <p-button class="color-green" icon="pi pi-search" tooltipPosition="top" pTooltip="Ver Detalle"></p-button>
-          <p-button class="color-blue" icon="pi pi-pencil" tooltipPosition="top" pTooltip="Actualizar"></p-button>
+          <p-button class="color-green" icon="pi pi-search" tooltipPosition="top" pTooltip="Ver Detalle"
+            (click)="showDetail(1)"></p-button>
+          <p-button class="color-blue" icon="pi pi-pencil" tooltipPosition="top" pTooltip="Actualizar"
+            (click)="editPet(1)"></p-button>
           <p-button class="color-red" icon="pi pi-trash" tooltipPosition="top" pTooltip="Eliminar"
             (click)="deletePet(pet.id)"></p-button>
         </div>

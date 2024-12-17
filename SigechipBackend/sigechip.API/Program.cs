@@ -33,9 +33,22 @@ builder.Services.AddScoped<IGeneroService, GeneroService>();
 builder.Services.AddScoped<IRazaService, RazaService>();
 builder.Services.AddScoped<IMascotaService, MascotaService>();
 
+var corsSettings = builder.Configuration.GetSection("CorsSettings");
+var allowedHost = corsSettings["AllowedOrigin"];
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin", builder =>
+    {
+        builder.WithOrigins(allowedHost)
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+    });
+});
 
 var app = builder.Build();
+
+app.UseCors("AllowSpecificOrigin");
 
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())

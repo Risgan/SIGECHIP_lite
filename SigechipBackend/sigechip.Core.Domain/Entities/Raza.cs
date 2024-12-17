@@ -15,6 +15,10 @@ namespace sigechip.Core.Domain.Entities
         [Column("id")]
         public int Id { get; set; }
 
+        [Column("id_especie")]
+        [Required]
+        public int IdEspecie { get; set; }
+
         [Column("raza")]
         [StringLength(250)]
         [Required]

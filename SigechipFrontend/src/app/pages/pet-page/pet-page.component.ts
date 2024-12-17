@@ -1,5 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { PrimengModule } from '../../shared/primeng/primeng.module';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-pet-page',
@@ -19,9 +20,25 @@ export class PetPageComponent {
     // Agrega más mascotas aquí
   ];
 
+
+  constructor(private router: Router) {
+  }
+
   deletePet(id: number) {
     // Lógica para eliminar la mascota por ID
     console.log('Eliminando mascota con ID:', id);
     this.pets = this.pets.filter(pet => pet.id !== id);
+  }
+
+  createPet() {
+    this.router.navigate(['/petcreate']);
+  }
+
+  showDetail(id: number) {
+    this.router.navigate(['/petdetail', id]);
+  }
+
+  editPet(id: number) {
+    this.router.navigate(['/petupdate', id]);
   }
 }

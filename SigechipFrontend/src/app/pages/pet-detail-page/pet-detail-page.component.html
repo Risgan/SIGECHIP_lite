@@ -5,18 +5,19 @@
     </div>
     <div class="detail-content">
       <!-- <form action="" [formGroup]="petform">    -->
+        <!-- <button (click)="test()">test</button> -->
       <div class="detail-form">
         <div class="detail-row">
           <div class="detail-col">
 
-            <label for="username">Tipo Identificación</label>
-            <input pInputText id="username" [(ngModel)]="value" />
+            <label for="tipoDocumento">Tipo Documento</label>
+            <input readonly pInputText id="tipoDocumento" [(ngModel)]="tipoDocumento" />
 
           </div>
           <div class="detail-col">
 
             <label for="username">Numero Identificación</label>
-            <input pInputText id="username" [(ngModel)]="value" />
+            <input readonly pInputText id="username" [(ngModel)]="value" />
 
           </div>
         </div>
@@ -24,15 +25,15 @@
           <div class="detail-col">
 
             <label for="username">Especie</label>
-            <p-dropdown [options]="tipoDocumentos" [(ngModel)]="selectTipoDoc" [checkmark]="true" optionLabel="value"
+            <p-dropdown [options]="listEspecies" [(ngModel)]="selectEspecie" (onChange)="selectedEspecie($event)" [checkmark]="true" optionLabel="especieNombre"
               placeholder="Seleccione Especie" />
 
           </div>
           <div class="detail-col">
 
             <label for="username">Raza</label>
-            <p-dropdown [options]="tipoDocumentos" [(ngModel)]="selectTipoDoc" [checkmark]="true" optionLabel="value"
-              placeholder="Seleccione Especie" />
+            <p-dropdown [options]="listRazas" [disabled]="!selectEspecie" [(ngModel)]="selectRaza" [checkmark]="true" optionLabel="razaNombre"
+              placeholder="Seleccione Raza" />
 
           </div>
         </div>
@@ -40,7 +41,7 @@
           <div class="detail-col">
 
             <label for="username">Genero</label>
-            <p-dropdown [options]="tipoDocumentos" [(ngModel)]="selectTipoDoc" [checkmark]="true" optionLabel="value"
+            <p-dropdown [options]="listEspecies" [(ngModel)]="selectTipoDoc" [checkmark]="true" optionLabel="especie"
               placeholder="Seleccione Especie" />
 
           </div>
@@ -56,7 +57,7 @@
           <div class="detail-col">
 
             <label for="username">Peso</label>
-            <input pInputText id="username" [(ngModel)]="value" />
+            <p-inputNumber [(ngModel)]="peso" mode="decimal" [minFractionDigits]="2" suffix=" Kg" />
 
           </div>
           <div class="detail-col">
@@ -69,8 +70,8 @@
         <div class="detail-row">
           <div class="detail-description">
 
-            <label for="username">Username</label>
-            <input pInputText id="username" [(ngModel)]="value" />
+            <label for="username">Descripción</label>
+            <textarea rows="5" cols="30" pInputTextarea [autoResize]="true" [(ngModel)]="value"></textarea>
 
           </div>
         </div>
@@ -83,4 +84,5 @@
       </div>
     </div>
   </div>
+  <button (click)="test()">test</button>
 </div>

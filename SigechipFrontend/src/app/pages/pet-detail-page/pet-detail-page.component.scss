@@ -83,6 +83,17 @@
 
 .detail-description {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .p-inputtext {
+    width: 100% !important;
+  }
+  
+}
+
+.textarea{
+  background: red;
 }
 
 .p-inputtext {
@@ -102,7 +113,7 @@
 
 }
 
-.p-dropdown .p-dropdown-trigger{
+.p-dropdown .p-dropdown-trigger {
   position: relative;
   right: 31px;
 }

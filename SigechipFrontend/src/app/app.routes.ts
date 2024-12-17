@@ -28,12 +28,19 @@ export const routes: Routes = [
                 component: PetPageComponent,
             },
             {
-                path: 'petdetail',
+                path: 'petcreate',
                 component: PetDetailPageComponent,
+                data: { mode: 'create' }
             },
             {
                 path: 'petdetail/:id',
                 component: PetDetailPageComponent,
+                data: { mode: 'detail' }
+            },
+            {
+                path: 'petupdate/:id',
+                component: PetDetailPageComponent,
+                data: { mode: 'update' }
             },
             {
                 path: 'user',

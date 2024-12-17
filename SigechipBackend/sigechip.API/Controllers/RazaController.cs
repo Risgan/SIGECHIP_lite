@@ -16,15 +16,22 @@ namespace sigechip.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var especies = await _service.GetAllAsync();
-            return Ok(especies);
+            var razas = await _service.GetAllAsync();
+            return Ok(razas);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var especie = await _service.GetByIdAsync(id);
-            return Ok(especie);
+            var raza = await _service.GetByIdAsync(id);
+            return Ok(raza);
+        }
+
+        [HttpGet("Especie/{idEspecie}")]
+        public async Task<IActionResult> GetByEspecieId(int idEspecie)
+        {
+            var razas = await _service.GetAllAsync();
+            return Ok(razas.Where(value => value.IdEspecie == idEspecie));
         }
 
         [HttpPost]

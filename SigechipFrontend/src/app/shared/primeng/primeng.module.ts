@@ -17,6 +17,7 @@ import { DropdownModule } from 'primeng/dropdown';
 import { CheckboxModule } from 'primeng/checkbox';
 import { TooltipModule } from 'primeng/tooltip';
 import { CalendarModule } from 'primeng/calendar';
+import { InputTextareaModule } from 'primeng/inputtextarea';
 
 const modules = [
   ButtonModule,
@@ -35,6 +36,7 @@ const modules = [
   DropdownModule,
   CardModule,
   CheckboxModule,
+  InputTextareaModule,
   TooltipModule 
 ];
 
