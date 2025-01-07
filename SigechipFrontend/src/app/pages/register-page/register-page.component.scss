@@ -79,15 +79,45 @@
     justify-content: center;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-:host ::ng-deep .p-button {
+.p-button {
     height: 31px;
     width: 202px;
     border-radius: 12px;
-    
+
 }
+
+
+.p-inputtext {
+    margin: 0;
+    font-size: 20px;
+    padding: 2px;
+    border: none;
+    // border-bottom: 1px solid black;
+    border-radius: 0;
+    background: transparent;
+    width: 240px;
+    margin-top: 5px;
+}
+
+.p-dropdown {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 84%;
+    border-radius: 0;
+}
+
+.campos{
+    margin-top: 20px;
+}
+
+// .p-dropdown .p-dropdown-trigger {
+//     position: relative;
+//     right: 31px;
+// }

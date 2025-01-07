@@ -71,11 +71,11 @@ export class PetDetailPageComponent implements OnInit {
   }
 
   async getTipoDocumento(){
-    await this.tipoDocumentoService.getTipoDocumentoById(6).subscribe(data=>{
-      console.log(data.sigla);
+    // await this.tipoDocumentoService.getTipoDocumentoById(1).subscribe(data=>{
+    //   console.log(data.sigla);
       
-      this.tipoDocumento = data.nombre;
-    })
+    //   this.tipoDocumento = data.nombre;
+    // })
   }
 
   async getEspecie(){

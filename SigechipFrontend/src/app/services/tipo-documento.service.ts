@@ -11,10 +11,10 @@ export class TipoDocumentoService {
 
   private apiUrl: string = environment.apiUrl + 'TipoDocumento';
 
-  constructor(private http: HttpClient) { }
+  constructor(private readonly http: HttpClient) { }
 
-  getTipoDocumentos() {
-    return this.http.get<TipoDocumento>(this.apiUrl);
+  getTipoDocumentos(){
+    return this.http.get<TipoDocumento[]>(this.apiUrl);
   }
 
   getTipoDocumentoById(id: number) {
