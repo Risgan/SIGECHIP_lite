@@ -1,4 +1,5 @@
-﻿using sigechip.Core.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using sigechip.Core.Domain.Entities;
 using sigechip.Core.Domain.Interfaces;
 using sigechip.Infrastructure.Persistence;
 using System;
@@ -14,6 +15,12 @@ namespace sigechip.Infrastructure.Repositories
         public PropietarioRepository(AplicationDbContext context) : base(context)
         {
 
+        }
+
+        public async Task<Propietario> GetByEmailAsync(string email)
+        {
+            var propietarios = await _context.Propietario.ToListAsync();
+            return propietarios.FirstOrDefault(data=> data.Email == email);
         }
     }
 }

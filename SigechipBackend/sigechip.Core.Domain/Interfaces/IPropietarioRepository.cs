@@ -9,5 +9,6 @@ namespace sigechip.Core.Domain.Interfaces
 {
     public interface IPropietarioRepository : IGenericRepository<Propietario>
     {
+        Task<Propietario> GetByEmailAsync(string email);
     }
 }

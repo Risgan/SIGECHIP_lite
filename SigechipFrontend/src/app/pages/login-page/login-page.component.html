@@ -24,13 +24,13 @@
 
 
 
-            <div class="campos">
+            <div class="campos" [formGroup]="loginForm">
 
                 <div class="input">
 
                     <div class="">
                         <p-floatLabel>
-                            <input pInputText id="user_pass" name="user_pass" autocomplete="false" />
+                            <input pInputText id="user_pass" name="user_pass" autocomplete="false" formControlName="correo"/>
                             <label for="user_pass">Usuario</label>
                         </p-floatLabel>
                     </div>
@@ -44,7 +44,7 @@
                     <div class="user-pass">
                         <p-floatLabel>
                             <input [type]="_showPassword" pInputText id="password" name="password"
-                                autocomplete="false" />
+                                autocomplete="false" formControlName="password"/>
                             <label for="password">Contraseña</label>
                         </p-floatLabel>
                         <p-inputIcon [styleClass]="_showPassword === 'password' ? 'pi pi-eye' : 'pi pi-eye-slash'"
@@ -61,7 +61,7 @@
 
             <div class="button">
                 <p-button label="Continuar" [style]="{'background':'var(--Azul)'}" [loading]="_loadingButton"
-                    (onClick)="load()" />
+                    (onClick)="load()" [disabled]="loginForm.invalid"/>
             </div>
             <br>
             <div class="button">

@@ -20,7 +20,7 @@ namespace sigechip.Core.Domain.Entities
 
         [Column("documento")]
         [Required]
-        public int Documento { get; set; }
+        public long Documento { get; set; }
 
         [Column("nombre")]
         [StringLength(250)]
@@ -34,12 +34,17 @@ namespace sigechip.Core.Domain.Entities
 
         [Column("celular")]
         [Required]
-        public int Celular { get; set; }
+        public long Celular { get; set; }
 
         [Column("email")]
         [StringLength(250)]
         [Required]
         public string Email { get; set; }
+
+        [Column("password")]
+        [StringLength(250)]
+        [Required]
+        public string Password { get; set; }
 
         [Column("activo")]
         [Required]

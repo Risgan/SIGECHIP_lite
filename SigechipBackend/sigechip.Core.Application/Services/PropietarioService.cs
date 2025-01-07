@@ -17,5 +17,10 @@ namespace sigechip.Core.Application.Services
         {
             _repository = repository;
         }
+
+        public async Task<Propietario> GetByEmailAsync(string email)
+        {
+            return await _repository.GetByEmailAsync(email);
+        }
     }
 }

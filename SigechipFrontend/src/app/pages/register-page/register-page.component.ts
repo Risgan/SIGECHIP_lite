@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { Form, FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
+import { AbstractControl, Form, FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { PrimengModule } from '../../shared/primeng/primeng.module';
 import { PropietarioService } from '../../services/propietario.service';
@@ -19,6 +19,7 @@ import { CommonModule } from '@angular/common';
 export class RegisterPageComponent implements OnInit{
   
   _showPassword: string = 'password';
+  _showConfirmPassword: string = 'password';
   _loadingButton: boolean = false;
 
   _propietario?: PropietarioCreate;
@@ -39,9 +40,10 @@ export class RegisterPageComponent implements OnInit{
       tipoDoc: ['', Validators.required],
       numeroDoc: ['', Validators.required],
       celular: ['', Validators.required],
-      correo: ['', Validators.required],
-      password: ['', Validators.required]
-    });
+      correo: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required, Validators.minLength(6)]],
+      confirmPassword: ['', [Validators.required, Validators.minLength(6)]]
+    },{ validators: this.passwordMatchValidator });
   }
 
   async ngOnInit() {
@@ -54,30 +56,50 @@ export class RegisterPageComponent implements OnInit{
     })
   }
 
-  load() {
+  async load() {
 
     this._loadingButton = true;
-    console.log(this.listTipoDoc, this.propietarioform, this.propietarioform.value, this.propietarioform.valid, this.propietarioform.invalid);
     
-    // propietario: PropietarioCreate = {}
+    
+    const propietario: PropietarioCreate = {
+      Nombre: this.propietarioform.value.nombres,
+      Apellido: this.propietarioform.value.apellidos,
+      TipoDocumento: this.propietarioform.value.tipoDoc.id,
+      Documento: this.propietarioform.value.numeroDoc,
+      Celular: this.propietarioform.value.celular,
+      Email: this.propietarioform.value.correo,
+      Password: this.propietarioform.value.password,
+      Activo: true
+    };
 
-    // this.propietarioService.createPropietario().subscribe({
-
-    // });
+    await this.propietarioService.createPropietario(propietario).subscribe((data:any)=>{
       
-
-
-    setTimeout(() => {
-        this._loadingButton = false
-    }, 100);
+      this._loadingButton = false
+      this.redirect('')
+    });
+      
 }
 
   togglePassword() {
     this._showPassword = this._showPassword === 'text' ? 'password' : 'text';
   }
 
+  toggleConfirmPassword() {
+    this._showConfirmPassword = this._showConfirmPassword === 'text' ? 'password' : 'text';
+  }
+
   redirect(url: string) {
     this.router.navigate([url]);
+  }
+
+  passwordMatchValidator(control: AbstractControl) {
+    const password = control.get('password');
+    const confirmPassword = control.get('confirmPassword');
+    if (password && confirmPassword && password.value !== confirmPassword.value) {
+      confirmPassword.setErrors({ passwordMismatch: true });
+    } else {
+      confirmPassword!.setErrors(null);
+    }
   }
 
 }

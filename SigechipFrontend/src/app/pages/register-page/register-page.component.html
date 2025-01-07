@@ -71,12 +71,12 @@
                     <div class="col">
                         <p-floatLabel>
                             <!-- <input type="text" name="fakepassword" id="fakepassword" style="display:none;"> -->
-                            <input [type]="_showPassword" pInputText id="password" name="password"
-                                autocomplete="false" />
+                            <input [type]="_showConfirmPassword" pInputText id="password" name="password"
+                                autocomplete="false" formControlName="confirmPassword"/>
                             <label for="password">Contraseña</label>
                         </p-floatLabel>
-                        <p-inputIcon [styleClass]="_showPassword === 'password' ? 'pi pi-eye' : 'pi pi-eye-slash'"
-                            (click)="togglePassword()" />
+                        <p-inputIcon [styleClass]="_showConfirmPassword === 'password' ? 'pi pi-eye' : 'pi pi-eye-slash'"
+                            (click)="toggleConfirmPassword()" />
                     </div>
                 </div>
 
