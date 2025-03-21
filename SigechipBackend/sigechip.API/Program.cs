@@ -14,6 +14,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+ //   .AddJsonOptions(options =>
+ //{
+ //    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+ //    options.JsonSerializerOptions.WriteIndented = true;
+ //});
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -29,6 +35,7 @@ builder.Services.AddScoped<IEspecieRepository, EspecieRepository>();
 builder.Services.AddScoped<IGeneroRepository, GeneroRepository>();
 builder.Services.AddScoped<IRazaRepository, RazaRepository>();
 builder.Services.AddScoped<IMascotaRepository, MascotaRepository>();
+builder.Services.AddScoped<ITarjetaRepository, TarjetaRepository>();
 
 builder.Services.AddScoped<ITipoDocumentoService, TipoDocumentoService>();
 builder.Services.AddScoped<IPropietarioService, PropietarioService>();
@@ -36,6 +43,8 @@ builder.Services.AddScoped<IEspecieService, EspecieService>();
 builder.Services.AddScoped<IGeneroService, GeneroService>();
 builder.Services.AddScoped<IRazaService, RazaService>();
 builder.Services.AddScoped<IMascotaService, MascotaService>();
+builder.Services.AddScoped<ITarjetaService, TarjetaService>();
+builder.Services.AddScoped<IJwtTokenGeneratorService, JwtTokenGeneratorService>();
 
 var corsSettings = builder.Configuration.GetSection("CorsSettings");
 var allowedHost = corsSettings["AllowedOrigin"];

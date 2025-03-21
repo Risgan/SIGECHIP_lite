@@ -4,6 +4,7 @@ using sigechip.Infrastructure.Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -42,19 +43,50 @@ namespace sigechip.Infrastructure.Repositories
             return await _dbSet.ToListAsync();
         }
 
+        public async virtual Task<IEnumerable<T>> GetAll(params Expression<Func<T, object>>[] includes)
+        {
+            IQueryable<T> query = _dbSet;
+
+            foreach (var include in includes)
+            {
+                query = query.Include(include);
+            }
+
+            return query.ToList();
+        }
+
         public async Task<T> GetById(int id)
         {
             return await _dbSet.FindAsync(id);
         }
 
+        public async Task<T> GetById(int id, params Expression<Func<T, object>>[] includes)
+        {
+            //return await _dbSet.FindAsync(id);
+
+            IQueryable<T> query = GetAll(includes).Result.AsQueryable();
+
+            return await query.FirstOrDefaultAsync(entity => EF.Property<int>(entity, "Id") == id);
+
+        }
+
         public async Task Update(int id, T entity)
         {
-            T _entity = await GetById(id);
-            _entity = entity;
-            _dbSet.Attach(entity);
-            _context.Entry(entity).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+            //T _entity = await GetById(id);
+            //_entity = entity;
+            //_dbSet.Attach(entity);
+            //_context.Entry(entity).State = EntityState.Modified;
+            //await _context.SaveChangesAsync();
 
+
+            var existingEntity = await _dbSet.FindAsync(id);
+            if (existingEntity == null)
+            {
+                throw new Exception("Entidad no encontrada.");
+            }
+
+            _context.Entry(existingEntity).CurrentValues.SetValues(entity); // Copia solo los valores nuevos
+            await _context.SaveChangesAsync();
         }
     }
 }

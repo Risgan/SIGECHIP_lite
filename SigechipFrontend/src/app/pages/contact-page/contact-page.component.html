@@ -1,25 +1,54 @@
-<p-card class="contact-card">
-    <ng-template pTemplate="header">
-      <h2>Datos de Contacto de Mascota</h2>
-    </ng-template>
-  
-    <form (ngSubmit)="onSubmit()" class="contact-form">
-      <div class="p-field">
-        <label for="ownerName" class="p-d-block">Nombre del Propietario</label>
-        <input id="ownerName" type="text" pInputText [(ngModel)]="contact.ownerName" name="ownerName" required />
+
+<p-toast />
+
+<div class="card">
+  <h2 class="text-center">Datos de Contacto de Mascota</h2>
+  <form [formGroup]="contactoForm" (ngSubmit)="onSubmit()"> 
+
+    <div class="p-fluid p-formgrid p-grid">
+
+      <!-- Nombre -->
+      <div class="p-field p-col-12 p-md-6">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" pInputText formControlName="nombre" required placeholder="Ingrese su nombre" [readOnly]="isReadonly"/>
       </div>
-  
-      <div class="p-field">
-        <label for="phone" class="p-d-block">Teléfono</label>
-        <input id="phone" type="tel" pInputText [(ngModel)]="contact.phone" name="phone" required />
+
+      <!-- Apellido -->
+      <div class="p-field p-col-12 p-md-6">
+        <label for="apellido">Apellido</label>
+        <input id="apellido" type="text" pInputText formControlName="apellido" required
+          placeholder="Ingrese su apellido" [readOnly]="isReadonly"/>
       </div>
-  
-      <div class="p-field">
-        <label for="email" class="p-d-block">Correo Electrónico</label>
-        <input id="email" type="email" pInputText [(ngModel)]="contact.email" name="email" required />
+
+      <!-- Celular -->
+      <div class="p-field p-col-12 p-md-6">
+        <label for="celular">Celular</label>
+        <input id="celular" type="number" pInputText formControlName="celular" required
+          placeholder="Ingrese el celular" [readOnly]="isReadonly"/>
       </div>
-  
-      <button pButton type="submit" label="Actualizar" class="p-button-outlined p-button-sm"></button>
-    </form>
-  </p-card>
-  
+
+      <!-- Email -->
+      <div class="p-field p-col-12 p-md-6">
+        <label for="email">Correo Electrónico</label>
+        <input id="email" type="email" pInputText formControlName="email" required
+          placeholder="Ingrese el correo electrónico" [readOnly]="true"/>
+      </div>
+
+      <!-- Activo -->
+      <!-- <div class="p-field p-col-12 p-md-6">
+        <label for="activo">Activo</label>
+        <p-checkbox id="activo" formControlName="activo" [binary]="true" [trueValue]="true"
+          [falseValue]="false"></p-checkbox>
+      </div> -->
+
+      <!-- Botones -->
+       <!-- @if(!isReadonly){
+         <div>
+           <div class="p-field p-col-12 text-center boton">
+             <button pButton label="Actualizar" icon="pi pi-pencil" type="submit"></button>
+           </div>
+         </div>
+       } -->
+    </div>
+  </form>
+</div>

@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity.Data;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using sigechip.Core.Application.DTO.Auth;
 using sigechip.Core.Application.Interfaces;
 using sigechip.Core.Application.Services;
 using sigechip.Infrastructure.Persistence;
@@ -9,11 +9,14 @@ namespace sigechip.API.Controllers
 {
     public class AuthController : BaseController
     {
-        private readonly JwtTokenGeneratorService _jwtTokenGenerator;
+        private readonly IJwtTokenGeneratorService _jwtTokenGenerator;
         private readonly IPropietarioService _propietarioService;
         private readonly HttpClient _httpClient;
 
-        public AuthController(JwtTokenGeneratorService jwtTokenGenerator, AplicationDbContext dbContext, IPropietarioService propietarioService)
+        public AuthController(
+            IJwtTokenGeneratorService jwtTokenGenerator, 
+            AplicationDbContext dbContext, 
+            IPropietarioService propietarioService)
         {
             _jwtTokenGenerator = jwtTokenGenerator;
             _httpClient = new HttpClient();
@@ -25,13 +28,13 @@ namespace sigechip.API.Controllers
         {
             
             var propietario = await _propietarioService.GetByEmailAsync(user.Email);
-            
+
             if (propietario == null)
             {
                 return Unauthorized("Invalid email or password.");
             }
 
-            
+
             var isValidPassword = BCrypt.Net.BCrypt.Verify(user.Password, propietario.Password);
 
             if (!isValidPassword)

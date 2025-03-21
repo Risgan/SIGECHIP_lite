@@ -3,6 +3,7 @@ using sigechip.Core.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,9 +33,19 @@ namespace sigechip.Core.Application.Services
             return await _repository.GetAll();
         }
 
+        public async Task<IEnumerable<T>> GetAllAsync(params Expression<Func<T, object>>[] includes)
+        {
+            return await _repository.GetAll(includes);
+        }
+
         public async Task<T> GetByIdAsync(int id)
         {
             return await _repository.GetById(id);
+        }
+
+        public async Task<T> GetByIdAsync(int id, params Expression<Func<T, object>>[] includes)
+        {
+            return await _repository.GetById(id, includes);
         }
 
         public async Task UpdateAsync(int id, T entity)

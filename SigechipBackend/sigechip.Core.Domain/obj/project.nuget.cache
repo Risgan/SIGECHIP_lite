@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HIztZbrLmgklBrmKE/DWghfPLbubDkNRiAWmFVOqZeYJshWIOdQh9HRg2CgDIJ7ZYGuSRQ8zCZ7AQexnb0ruOg==",
+  "dgSpecHash": "or7Bz9+9BWM=",
   "success": true,
   "projectFilePath": "C:\\Users\\johnr\\Documents\\Documentos\\JyLNeuralNet\\ProjectosExternos\\SIGECHIP_lite\\SigechipBackend\\sigechip.Core.Domain\\sigechip.Core.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\johnr\\.nuget\\packages\\microsoft.aspnet.cors\\5.3.0\\microsoft.aspnet.cors.5.3.0.nupkg.sha512",
     "C:\\Users\\johnr\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
     "C:\\Users\\johnr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0\\microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\johnr\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0\\microsoft.entityframeworkcore.analyzers.9.0.0.nupkg.sha512",
@@ -19,5 +20,16 @@
     "C:\\Users\\johnr\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
     "C:\\Users\\johnr\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Microsoft.AspNet.Cors 5.3.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "Microsoft.AspNet.Cors",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

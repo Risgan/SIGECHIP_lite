@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sigechip.Core.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+833e9d64a3db73a095cec2bec6ed236b9c9279ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+201262b9cd8c6cf567899a540211149487c845a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("sigechip.Core.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sigechip.Core.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

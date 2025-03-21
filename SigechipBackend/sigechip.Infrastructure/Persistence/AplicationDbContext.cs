@@ -29,6 +29,7 @@ namespace sigechip.Infrastructure.Persistence
         public DbSet<Propietario> Propietario { get; set; }
         public DbSet<Genero> Genero { get; set; }
         public DbSet<TipoDocumento> TipoDocumento { get; set; }
+        public DbSet<Tarjeta> Tarjeta { get; set; }
 
     }
 }

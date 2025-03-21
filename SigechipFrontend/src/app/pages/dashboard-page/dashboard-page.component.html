@@ -1,32 +1,60 @@
-<div class="content">
-
-    <p-carousel [value]="banners" [numVisible]="1" [numScroll]="1" [circular]="true"
-        [responsiveOptions]="responsiveOptions" autoplayInterval="5000">
-        <ng-template let-banner pTemplate="item">
-            <div class="border-1 surface-border border-round m-2 p-3">
-                <div class="mb-3">
-                    <div class="relative mx-auto">
-                        <img src="/assets/Banner/{{ banner.image }}"
-                            class="w-full border-round" />
-                    </div>
-                </div>
-            </div>
+<div class="container">
+    <h1>John Forero</h1>
+    
+    <div class="content">
+      <p-carousel [value]="banners" [numVisible]="1" [numScroll]="1" [circular]="true"
+          [responsiveOptions]="responsiveOptions" autoplayInterval="5000">
+          <ng-template let-banner pTemplate="item">
+              <div class="border-1 surface-border border-round m-2 p-3">
+                  <div class="mb-3">
+                      <div class="relative mx-auto">
+                          <img src="/assets/Banner/{{ banner.image }}"
+                              class="w-full border-round" />
+                      </div>
+                  </div>
+              </div>
+          </ng-template>
+      </p-carousel>
+    </div>
+  
+    <section class="datos-curiosos">
+      <h2>Datos Curiosos</h2>
+      <p-carousel [value]="datosCuriosos" [numVisible]="1" [numScroll]="1" [circular]="true" autoplayInterval="4000">
+        <ng-template let-item pTemplate="item">
+          <p>{{ item }}</p>
         </ng-template>
-    </p-carousel>
-<button (click)="test()">test</button>
-
-<p>Datos Curiosos</p>
-<p>El gato es un animal que ha sido domesticado por el ser humano desde hace más de 9500 años. A pesar de que es un animal que se ha adaptado a la vida en el hogar, conserva muchos de
-
-
-<p>recordatorios generos, cada cuanto hay que vanucnar, tipos de vacunas</p>
-
-<p>recomendaciones de alimento</p>
-
-<p>recomendaciones de cuidado</p>
-
-<p>recomendaciones de higiene</p>
-
-<p>recomendaciones de juguetes</p>
-
-</div>  
+      </p-carousel>
+    </section>
+    
+    <section class="recomendaciones">
+      <h2>Recomendaciones</h2>
+      
+      <h3>Alimentación</h3>
+      <p-carousel [value]="alimentacion" [numVisible]="1" [numScroll]="1" [circular]="true" autoplayInterval="4000">
+        <ng-template let-item pTemplate="item">
+          <p>{{ item }}</p>
+        </ng-template>
+      </p-carousel>
+      
+      <h3>Cuidado</h3>
+      <p-carousel [value]="cuidado" [numVisible]="1" [numScroll]="1" [circular]="true" autoplayInterval="4000">
+        <ng-template let-item pTemplate="item">
+          <p>{{ item }}</p>
+        </ng-template>
+      </p-carousel>
+      
+      <h3>Higiene</h3>
+      <p-carousel [value]="higiene" [numVisible]="1" [numScroll]="1" [circular]="true" autoplayInterval="4000">
+        <ng-template let-item pTemplate="item">
+          <p>{{ item }}</p>
+        </ng-template>
+      </p-carousel>
+      
+      <h3>Juguetes</h3>
+      <p-carousel [value]="juguetes" [numVisible]="1" [numScroll]="1" [circular]="true" autoplayInterval="4000">
+        <ng-template let-item pTemplate="item">
+          <p>{{ item }}</p>
+        </ng-template>
+      </p-carousel>
+    </section>
+  </div>

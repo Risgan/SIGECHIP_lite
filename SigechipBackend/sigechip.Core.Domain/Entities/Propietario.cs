@@ -15,8 +15,8 @@ namespace sigechip.Core.Domain.Entities
         [Column("id")]
         public int Id { get; set; }
 
-        [Column("tipo_documento")]
-        public int TipoDocumento { get; set; }
+        [Column("tipo_documento_id")]
+        public int TipoDocumentoId { get; set; }
 
         [Column("documento")]
         [Required]
@@ -49,5 +49,8 @@ namespace sigechip.Core.Domain.Entities
         [Column("activo")]
         [Required]
         public bool Activo { get; set; } = true;
+
+        [ForeignKey("TipoDocumentoId")]
+        public virtual TipoDocumento TipoDocumento { get; set; }
     }
 }

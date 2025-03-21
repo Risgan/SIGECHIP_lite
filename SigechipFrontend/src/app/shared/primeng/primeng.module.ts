@@ -18,6 +18,9 @@ import { CheckboxModule } from 'primeng/checkbox';
 import { TooltipModule } from 'primeng/tooltip';
 import { CalendarModule } from 'primeng/calendar';
 import { InputTextareaModule } from 'primeng/inputtextarea';
+import { FileUploadModule } from 'primeng/fileupload';
+import { ConfirmDialogModule } from 'primeng/confirmdialog';
+import { TableModule } from 'primeng/table';
 
 const modules = [
   ButtonModule,
@@ -37,7 +40,10 @@ const modules = [
   CardModule,
   CheckboxModule,
   InputTextareaModule,
-  TooltipModule 
+  FileUploadModule,
+  TooltipModule,
+  TableModule,
+  ConfirmDialogModule 
 ];
 
 @NgModule({

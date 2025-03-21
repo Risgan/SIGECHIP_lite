@@ -1,43 +1,67 @@
+<p-toast />
+<p-confirmDialog />
+
 <!-- Botón de Añadir -->
 <div class="head-button">
-  <p-button icon="pi pi-plus" severity="success" (click)="createPet()" tooltipPosition="left" pTooltip="Nueva Mascota" class=""></p-button>
+  <p-button icon="pi pi-plus" severity="success" (click)="createPet()" tooltipPosition="left" pTooltip="Nueva Mascota"
+    class=""></p-button>
 </div>
 
 <!-- Contenedor de Tarjetas de Mascotas -->
 <div class="container-pets">
 
   <div class="pet-cards-container">
+
+    @if (pets.length > 0) {
     @for (pet of pets; track $index) {
     <div class="pet-card">
-      <!-- <ng-template pTemplate="header"> -->
-      <div class="pet-image">
-        <img [src]="pet.image" alt="{{ pet.name }}" />
-      </div>
-      <!-- </ng-template> -->
 
-      <div class="pet-info">
-        <div class="titulo">
-          <h1>{{ pet.name }}</h1>
-        </div>
-        <div class="information">
-          <p><strong>Raza:</strong> {{ pet.breed }}</p>
-          <p><strong>Edad:</strong> {{ pet.age }} años</p>
-          <p><strong>Género:</strong> {{ pet.gender }}</p>
-        </div>
+      <div class="titulo">
+        <h1>{{ pet.nombre }}</h1>
+      </div>
+
+      <div class="card-rfid">
+        <p-button class="color-lila" icon="pi pi-id-card" tooltipPosition="top" pTooltip="Tarjeta de Identificación"
+          (click)="showRfidCard(pet.id)"></p-button>
+        <p-button class="color-white" icon="pi pi-qrcode" tooltipPosition="top" pTooltip="Codigo QR"
+          (click)="showQrModal(pet.id)"></p-button>
+      </div>
+
+      <div class="pet-image">
+        <img [src]="pet.foto" alt="{{ pet.nombre }}" />
       </div>
 
       <div class="content-buttons">
         <div class="pet-buttons">
           <p-button class="color-green" icon="pi pi-search" tooltipPosition="top" pTooltip="Ver Detalle"
-            (click)="showDetail(1)"></p-button>
+            (click)="showDetail(pet.id)"></p-button>
           <p-button class="color-blue" icon="pi pi-pencil" tooltipPosition="top" pTooltip="Actualizar"
-            (click)="editPet(1)"></p-button>
+            (click)="editPet(pet.id)"></p-button>
           <p-button class="color-red" icon="pi pi-trash" tooltipPosition="top" pTooltip="Eliminar"
-            (click)="deletePet(pet.id)"></p-button>
+            (click)="deletePet($event, pet)"></p-button>
         </div>
       </div>
+
+    </div>
+    }
+    }
+    @else {
+    <div class="no-pets">
+      <h1>No hay mascotas registradas</h1>
     </div>
     }
 
+
   </div>
 </div>
+
+<!-- <app-qr-code></app-qr-code> -->
+
+<p-dialog header="Código QR" [(visible)]="displayQrModal" [modal]="true" [closable]="true">
+  <div class="qr-container">
+    <app-qr-code [idMascota]="petId"></app-qr-code>
+  </div>
+  <ng-template pTemplate="footer">
+    <p-button label="Cerrar" icon="pi pi-times" class="close-modal" (click)="closeQrModal()" severity="danger"></p-button>
+  </ng-template>
+</p-dialog>

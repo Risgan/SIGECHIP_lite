@@ -9,6 +9,7 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
 import { UserPageComponent } from './pages/user-page/user-page.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { PetDetailPageComponent } from './pages/pet-detail-page/pet-detail-page.component';
+import { CardRfidPageComponent } from './pages/card-rfid-page/card-rfid-page.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/login', pathMatch: 'full' }, // Redirecciona a la página de inicio
@@ -48,8 +49,16 @@ export const routes: Routes = [
             },
             {
                 path: 'contact',
-                component: ContactPageComponent,
-            }
+                component: ContactPageComponent
+            },
+            {
+                path: 'contact/:id',
+                component: ContactPageComponent
+            },
+            {
+                path: 'cards/:id',
+                component: CardRfidPageComponent
+            },
         ]
     },
     { path: '**', redirectTo: '/login' },

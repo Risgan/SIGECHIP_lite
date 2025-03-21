@@ -2,6 +2,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
 import { PrimengModule } from '../../shared/primeng/primeng.module';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
+import { PropietarioService } from '../../services/propietario.service';
+import { Propietario } from '../../models/propietario';
 
 @Component({
   selector: 'app-forgot-password-page',
@@ -14,15 +16,53 @@ import { Router } from '@angular/router';
 export class ForgotPasswordPageComponent {
 
   _loadingButton: boolean = false;
+  correo: string = '';
+  mostrarDialog: boolean = false;
+  nuevaContrasena: string = '';
+  propietario!: Propietario
 
-  constructor(private router: Router) { }
+  constructor(
+    private router: Router,
+    private propietarioService: PropietarioService
+  ) { }
 
   load() {
     this._loadingButton = true;
 
-    setTimeout(() => {
-      this._loadingButton = false
-    }, 2000);
+    this.propietarioService.getPropietarioByEmail(this.correo).subscribe(propietario => {
+      console.log('Propietario:', propietario);
+
+      if (propietario != null) {
+        this.propietario = propietario;        
+        this.mostrarModal();
+        this._loadingButton = false;
+
+      }
+      else {
+        console.log('Correo no encontrado');
+        this._loadingButton = false;
+      }
+    });
+
+    // setTimeout(() => {
+    // }, 2000);
+  }
+
+  mostrarModal() {
+    this.mostrarDialog = true;
+  }
+
+  ocultarModal() {
+    this.mostrarDialog = false;
+  }
+
+  guardarNuevaContrasena() {
+    console.log('Nueva contraseña:', this.nuevaContrasena);
+    this.propietario.password = this.nuevaContrasena;
+    this.propietarioService.updatePropietario(this.propietario).subscribe(() => {
+      this.ocultarModal();
+      this.redirect('/login');
+    });
   }
 
   redirect(url: string) {

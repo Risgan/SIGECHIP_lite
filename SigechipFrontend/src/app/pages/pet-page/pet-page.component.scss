@@ -137,10 +137,19 @@
 }
 
 .pet-cards-container {
+    // display: flex;
+    // flex-wrap: wrap;
+    // gap: 12px;
+    // justify-content: space-around;
+
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
     justify-content: space-around;
+    // max-width: 400px;
+    margin: 0 15px;
+
+
 }
 
 .pet-card {
@@ -150,6 +159,22 @@
     border-radius: 132px;
     background: var(--Amarillo);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 400px;
+    height: 480px;
+    border-radius: 40px;
+
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
 }
 
 .pet-info {
@@ -157,20 +182,60 @@
 }
 
 .pet-image {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+    // display: flex;
+    // justify-content: center;
+    // padding: 10px;
+
+    // display: flex;
+    // padding: 10px;
+    // justify-content: center;
+    // align-items: center;
+
+    width: 80%;
+    height: 80%;
+
+
+
+    // width: 250px;
+    // height: 250px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // overflow: hidden;
+    // border-radius: 10px;
+    // top: 10px;
+    // position: relative;
+
+    // width: 320px;
+    // height: 320px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // overflow: hidden; // Evita que la imagen sobresalga
+    // border-radius: 10px; // Opcional, por si quieres esquinas redondeadas
 
     img {
 
-        border-radius: 33% 42% 40% 65%;
-        width: 95%;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+        // border-radius: 33% 42% 40% 65%;
+        // width: 90%;
+        // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+        // object-fit: cover;
+        // height: 350px;
+
+        border-radius: 20%;
+        // height: 320px;
+        // width: 320px;
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover; // Hace que la imagen llene el espacio sin deformarse
     }
 }
 
 .titulo {
     color: var(--AzulTitle);
+    position: absolute;
+    top: -38px;
 }
 
 .information {
@@ -182,46 +247,107 @@
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
 }
 
 .pet-buttons {
     display: flex;
     justify-content: space-evenly;
     width: 80%;
+
     .p-button {
         border-radius: 50%;
         color: var(--White);
     }
 }
 
-.color-red{
+.color-red {
     .p-button {
         background-color: var(--RedClaro);
     }
 }
 
-.color-green{
+.color-green {
     .p-button {
         background-color: var(--GreenOscuro);
     }
 }
 
-.color-blue{
+.color-blue {
     .p-button {
         background-color: var(--AzulClaro);
     }
 }
 
-@media (max-width: 1200px) {
-    .pet-cards-container .pet-card {
-        width: calc(33.33% - 12px);
-        /* Tres tarjetas por fila en pantallas medianas */
+// @media (max-width: 1200px) {
+//     .pet-cards-container .pet-card {
+//         width: calc(33.33% - 12px);
+//         /* Tres tarjetas por fila en pantallas medianas */
+//     }
+// }
+
+// @media (max-width: 768px) {
+//     .pet-cards-container .pet-card {
+//         width: calc(50% - 12px);
+//         /* Dos tarjetas por fila en pantallas pequeñas */
+//     }
+// }
+
+h1 {
+    color: var(--AzulTitle);
+    margin-bottom: 1rem;
+}
+
+
+.card-rfid {
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.color-lila {
+    z-index: 1;
+
+    .p-button {
+        background-color: var(--Lila);
+        border-radius: 6px;
+        padding: 0;
+        width: 45px;
+        height: 35px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+        .pi {
+            font-size: 35px;
+            color: var(--White);
+        }
     }
 }
 
-@media (max-width: 768px) {
-    .pet-cards-container .pet-card {
-        width: calc(50% - 12px);
-        /* Dos tarjetas por fila en pantallas pequeñas */
+.color-white {
+    z-index: 1;
+
+    .p-button {
+        background-color: var(--White);
+        border-radius: 6px;
+        padding: 0;
+        width: 35px;
+        height: 35px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+        .pi {
+            font-size: auto;
+            color: var(--Black);
+        }
+    }
+}
+
+.close-modal{
+    .p-button{
+        color: white;
+
     }
 }

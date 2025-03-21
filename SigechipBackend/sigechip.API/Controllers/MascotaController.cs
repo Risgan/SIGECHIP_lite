@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using sigechip.Core.Application.DTO.Mascota;
 using sigechip.Core.Application.Interfaces;
 using sigechip.Core.Domain.Entities;
 
@@ -23,22 +24,62 @@ namespace sigechip.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var especie = await _service.GetByIdAsync(id);
-            return Ok(especie);
+            var mascota = await _service.GetByIdAsync(id);
+            if (mascota == null)
+            {
+                return NotFound();
+            }
+            return Ok(mascota);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Mascota mascota)
+        public async Task<IActionResult> Create(MascotaDto mascotaDto)
         {
-            await _service.AddAsync(mascota);
-            return Ok();
+            try
+            {
+                var mascota = new Mascota
+                {
+                    IdPropietario = mascotaDto.IdPropietario,
+                    TipoDocumento = mascotaDto.TipoDocumento,
+                    Documento = mascotaDto.Documento,
+                    Nombre = mascotaDto.Nombre,
+                    IdEspecie = mascotaDto.IdEspecie,
+                    IdRaza = mascotaDto.IdRaza,
+                    IdGenero = mascotaDto.IdGenero,
+                    FechaNacimiento = mascotaDto.FechaNacimiento.ToUniversalTime(),
+                    Peso = mascotaDto.Peso,
+                    Foto = mascotaDto.Foto,
+                    Descripcion = mascotaDto.Descripcion,
+                    Activo = true,
+                    FechaCreacion = DateTime.Now.ToUniversalTime(),
+                    FechaActualizacion = DateTime.Now.ToUniversalTime()
+                };
+
+                await _service.AddAsync(mascota);
+                return Ok(mascota);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+
+
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, Mascota mascota)
         {
-            await _service.UpdateAsync(id, mascota);
-            return Ok();
+            try
+            {
+                await _service.UpdateAsync(id, mascota);
+                return Ok();
+
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpDelete("{id}")]
@@ -46,6 +87,21 @@ namespace sigechip.API.Controllers
         {
             await _service.DeleteAsync(id);
             return Ok();
+        }
+
+        [HttpGet("consecutivo")]
+        public async Task<IActionResult> GetConsecutivo()
+        {
+            var especies = await _service.GetAllAsync();
+            return Ok(especies.Count() + 1);
+        }
+
+        [HttpGet("Propietario/{idPropietario}")]
+        public async Task<IActionResult> GetByPropietarioId(int idPropietario)
+        {
+            var mascotas = await _service.GetAllByPropietarioId(idPropietario);
+
+            return Ok(mascotas);
         }
     }
 }

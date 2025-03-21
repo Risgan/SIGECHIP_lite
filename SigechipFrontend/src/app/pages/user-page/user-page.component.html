@@ -1,11 +1,13 @@
+<p-toast />
+
 <div class="card">
     <h2 class="text-center">Formulario de Propietario</h2>
     <form [formGroup]="propietarioForm" (ngSubmit)="onSubmit()">
         <div class="p-fluid p-formgrid p-grid">
             <!-- Tipo de Documento -->
             <div class="p-field p-col-12 p-md-6">
-                <label for="tipo_documento">Tipo de Documento</label>
-                <p-dropdown id="tipo_documento" formControlName="tipo_documento" [options]="tipoDocumentos"
+                <label for="tipodocumento">Tipo de Documento</label>
+                <p-dropdown id="tipodocumento" formControlName="tipodocumento" [options]="tipoDocumentos"
                     optionLabel="name" placeholder="Seleccione tipo de documento" required></p-dropdown>
             </div>
 
@@ -53,7 +55,7 @@
 
             <!-- Botones -->
             <div>
-                <div class="p-field p-col-12 text-center">
+                <div class="p-field p-col-12 text-center boton">
                     <button pButton label="Guardar" icon="pi pi-save" type="submit"
                         [disabled]="!propietarioForm.valid"></button>
                 </div>

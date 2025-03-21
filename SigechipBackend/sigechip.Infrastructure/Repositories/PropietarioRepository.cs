@@ -19,7 +19,7 @@ namespace sigechip.Infrastructure.Repositories
 
         public async Task<Propietario> GetByEmailAsync(string email)
         {
-            var propietarios = await _context.Propietario.ToListAsync();
+            var propietarios = await _context.Propietario.Include(e => e.TipoDocumento).ToListAsync();
             return propietarios.FirstOrDefault(data=> data.Email == email);
         }
     }

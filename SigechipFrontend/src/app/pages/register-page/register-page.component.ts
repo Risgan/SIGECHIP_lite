@@ -62,14 +62,14 @@ export class RegisterPageComponent implements OnInit{
     
     
     const propietario: PropietarioCreate = {
-      Nombre: this.propietarioform.value.nombres,
-      Apellido: this.propietarioform.value.apellidos,
-      TipoDocumento: this.propietarioform.value.tipoDoc.id,
-      Documento: this.propietarioform.value.numeroDoc,
-      Celular: this.propietarioform.value.celular,
-      Email: this.propietarioform.value.correo,
-      Password: this.propietarioform.value.password,
-      Activo: true
+      nombre: this.propietarioform.value.nombres,
+      apellido: this.propietarioform.value.apellidos,
+      tipoDocumentoId: this.propietarioform.value.tipoDoc.id,
+      documento: this.propietarioform.value.numeroDoc,
+      celular: this.propietarioform.value.celular,
+      email: this.propietarioform.value.correo,
+      password: this.propietarioform.value.password,
+      activo: true
     };
 
     await this.propietarioService.createPropietario(propietario).subscribe((data:any)=>{
