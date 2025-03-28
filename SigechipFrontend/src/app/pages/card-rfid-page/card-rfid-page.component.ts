@@ -23,6 +23,8 @@ export class CardRfidPageComponent implements OnInit {
   tarjeta: string | null = '';
   id: number = 0;
 
+  block: boolean = false;
+
   constructor(
     private tarjetaService: TarjetaService,
     private router: Router,
@@ -80,6 +82,8 @@ export class CardRfidPageComponent implements OnInit {
   }
 
   saveCard() {
+    this.block = true;
+
     if (this.tarjeta) {
 
       var newCard: Tarjeta = {
@@ -96,6 +100,8 @@ export class CardRfidPageComponent implements OnInit {
 
 
       this.closeDialog();
+      this.block = false;
+
     }
   }
 }

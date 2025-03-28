@@ -5,7 +5,7 @@
     
     <div class="p-field p-col-12 input-id">
         <p-floatLabel>
-            <input pInputText class="input-search" id="username" [(ngModel)]="idMascota" />
+            <input pInputText class="input-search" id="username" [disabled]="block" [(ngModel)]="idMascota" (keydown.enter)="searchByIdCard()"/>
             <label for="username">Id Mascota</label>
         </p-floatLabel>
         <!-- <label for="idCard">ID Card</label>

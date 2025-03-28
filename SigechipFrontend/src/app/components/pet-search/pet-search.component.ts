@@ -14,7 +14,8 @@ export class PetSearchComponent {
 
   _loadingButton: boolean = false;
   idMascota: string = '';
-
+  block: boolean = false;
+  
   @Output() idEmitido: EventEmitter<string> = new EventEmitter<string>();
 
   constructor(
@@ -22,6 +23,7 @@ export class PetSearchComponent {
   ) { }
 
   searchByIdCard() {
+    this.block = true;
     this._loadingButton = true;
 
     setTimeout(() => {
@@ -31,7 +33,8 @@ export class PetSearchComponent {
       // this.router.navigate(['/petdetail/2']);
       // this.visible.emit(false);
       this.idEmitido.emit(this.idMascota);
-
+      this.idMascota = '';
+      this.block = false;
     }, 2000);
 
   }

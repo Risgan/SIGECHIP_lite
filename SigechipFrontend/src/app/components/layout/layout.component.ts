@@ -99,6 +99,7 @@ export class LayoutComponent implements OnInit, AfterViewInit, AfterContentInit 
 
   searchByIdCard(event: any) {
     // this._loadingButton = true;
+    debugger
     if (event == null || event == 0) {
       this.messageService.add({ severity: 'error', summary: 'Error', detail: 'No se encontro una mascota con ese ID' });
 
@@ -110,6 +111,7 @@ export class LayoutComponent implements OnInit, AfterViewInit, AfterContentInit 
           if (data) {
             console.log('Tarjeta encontrada:', data);
             this.router.navigate([`/petdetail/${data.idMascota}`]);
+            this.visible = false;
 
           }
         },
@@ -122,15 +124,23 @@ export class LayoutComponent implements OnInit, AfterViewInit, AfterContentInit 
                 if (pet) {
                   console.log('Mascota encontrada:', pet);
                   this.router.navigate([`/petdetail/${pet.id}`]);
+                  this.visible = false;
+
                 }
               },
               error: (error) => {
                 if (error.status === 404) {
                   console.log('Mascota no encontrada, ejecutar otra acción.');
                   this.messageService.add({ severity: 'error', summary: 'Error', detail: 'No se encontro una mascota con ese ID' });
+                  this.visible = false;
+
                 } else {
                   // Manejo de otros errores
                   console.error('Error inesperado:', error);
+                  this.messageService.add({ severity: 'error', summary: 'Error', detail: 'No se encontro una mascota con ese ID' });
+                  this.visible = false;
+
+
                 }
               }
             });
@@ -138,10 +148,12 @@ export class LayoutComponent implements OnInit, AfterViewInit, AfterContentInit 
           } else {
             // Manejo de otros errores
             console.error('Error inesperado:', error);
+            this.messageService.add({ severity: 'error', summary: 'Error', detail: 'No se encontro una mascota con ese ID' });
+            this.visible = false;
+
           }
         }
       });
-      this.visible = false;
 
       // setTimeout(() => {
       //   // this._loadingButton = false
