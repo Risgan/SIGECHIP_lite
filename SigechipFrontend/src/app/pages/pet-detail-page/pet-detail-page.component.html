@@ -1,0 +1,141 @@
+<!-- <p-toast></p-toast> -->
+<p-toast />
+
+
+@if (!toggleContact) {
+<form [formGroup]="petForm" (ngSubmit)="onSubmit()">
+  <div class="detail-container">
+    <div class="detail-card">
+      <div class="detail-title">
+        @if (mode == 'detail') {
+          <div class="button-toggle">
+            <p-button [label]="this.toggleContact ? 'Ver Mascota' : 'Ver Contacto'" icon="pi pi-sync" (click)="toggle()"></p-button>
+          </div>
+        }
+        <h1>{{nombreMascota}}</h1>
+      </div>
+      <div class="detail-content">
+        <!-- <button (click)="test()">test</button> -->
+        <div class="detail-form">
+          <div class="detail-row">
+            <div class="detail-col">
+
+              <label for="tipoDocumento">Tipo Documento</label>
+              <input readonly pInputText id="tipoDocumento" formControlName="tipoDocumento" />
+
+            </div>
+            <div class="detail-col">
+
+              <label for="username">Numero Identificación</label>
+              <input pInputText id="username" readonly
+                [value]="petForm.get('numeroDocumento')?.value.toString().padStart(8, '0')" />
+
+            </div>
+          </div>
+          <div class="detail-row">
+            <div class="detail-col">
+
+              <label for="username">Genero</label>
+              <p-dropdown [options]="listGenero" [checkmark]="true" optionLabel="generoNombre"
+                placeholder="Seleccione Especie" [readonly]="isReadOnly" formControlName="genero" />
+
+            </div>
+            <div class="detail-col">
+
+              <label for="nombre">Nombre</label>
+              <input pInputText id="nombre" [readonly]="isReadOnly" formControlName="nombre" />
+
+
+            </div>
+          </div>
+          <div class="detail-row">
+            <div class="detail-col">
+
+              <label for="username">Especie</label>
+              <p-dropdown [options]="listEspecies" formControlName="especie" (onChange)="selectedEspecie($event)"
+                [checkmark]="true" optionLabel="especieNombre" placeholder="Seleccione Especie"
+                [readonly]="isReadOnly" />
+
+            </div>
+            <div class="detail-col">
+
+              <label for="username">Raza</label>
+              <p-dropdown [options]="listRazas" [disabled]="!petForm.value.especie" [checkmark]="true"
+                optionLabel="razaNombre" placeholder="Seleccione Raza" [readonly]="isReadOnly" formControlName="raza" />
+
+            </div>
+          </div>
+          <div class="detail-row">
+            <div class="detail-col">
+
+              <label for="username">Fecha de Nacimiento</label>
+              <p-calendar [maxDate]="maxDate" [readonlyInput]="true" [disabled]="isReadOnly"
+                formControlName="fechaNacimiento" />
+
+
+            </div>
+            <div class="detail-col">
+
+              <label for="username">Peso</label>
+              <p-inputNumber mode="decimal" [minFractionDigits]="2" suffix=" Kg" [readonly]="isReadOnly"
+                formControlName="peso" />
+
+            </div>
+          </div>
+          <div class="detail-row">
+            <div class="detail-description">
+
+              <label for="username">Descripción</label>
+              <textarea rows="5" cols="30" formControlName="descripcion" pInputTextarea [autoResize]="true"
+                [readonly]="isReadOnly"></textarea>
+
+            </div>
+          </div>
+        </div>
+        <div class="detail-image">
+          <div class="detail-sub-target">
+            @if(mode!='detail'){
+            <!-- <p-fileUpload mode="basic" chooseLabel="Cargar Foto" chooseIcon="pi pi-upload" name="demo[]"
+                accept="image/*" maxFileSize="1000000" (onUpload)="onFileSelected($event)" />-->
+
+
+            <!-- <input type="file" (change)="onFileSelected($event)" />  -->
+
+            <!-- <div class="image-upload-container"> -->
+            <img [src]="imageSrc" class="preview-image" (click)="triggerFileInput()" />
+
+            <!-- Input oculto para subir archivos -->
+            <input type="file" #fileInput accept="image/*" (change)="onFileSelected($event)" hidden />
+            <!-- </div> -->
+
+
+
+            }
+            @else{
+            <!-- <img src="/assets/Images/noImage2.png" /> -->
+            <img [src]="imageSrc" class="preview-image" />
+            }
+          </div>
+        </div>
+      </div>
+      @if(mode!='detail'){
+      <div class="floatButton">
+        <p-button label="" icon="pi pi-save" [disabled]="petForm.invalid" (onClick)="onSubmit()" />
+      </div>
+      }
+    </div>
+  </div>
+</form>
+}
+@else{
+<div class="detail-container">
+  <div class="detail-card-toggle">
+  <div class="detail-title">
+    <div class="button-toggle">
+      <p-button [label]="this.toggleContact ? 'Ver Mascota' : 'Ver Contacto'" icon="pi pi-sync" (click)="toggle()"></p-button>
+    </div>
+    <app-contact-page></app-contact-page>
+  </div>
+  </div>
+</div>
+}

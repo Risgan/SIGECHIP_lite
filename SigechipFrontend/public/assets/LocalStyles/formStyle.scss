@@ -1,0 +1,36 @@
+.input {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        font-size: 20px;
+    }
+
+    input {
+        // color: red;
+        font-size: 20px;
+        padding: 2px;
+        border: none;
+        border-bottom: 1px solid black;
+        border-radius: 0;
+        background: transparent;
+        width: 240px;
+    }
+
+    small {
+        font-size: 12px
+    }
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 510px;
+    margin-bottom: 30px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    width: 245px;
+}

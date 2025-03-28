@@ -1,0 +1,123 @@
+.fondo {
+    // background: red;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+
+    .logo {
+        // background-color: red;
+        width: 422px;
+        margin-top: 23px;
+        margin-left: 28px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .mascara {
+        overflow: hidden;
+        width: 480px;
+        height: 140vh;
+        transform: rotate(-30deg);
+        position: absolute;
+        top: -280px;
+        right: -180px;
+
+        img {
+            transform: rotate(30deg);
+            width: auto;
+            height: 120vh;
+            flex-shrink: 0;
+            position: relative;
+            top: 122px;
+            right: 290px;
+        }
+    }
+
+    .rotated-line {
+        width: 130vh;
+        height: 6px;
+        transform: rotate(60deg);
+        transform-origin: left;
+
+    }
+
+    .position-line1 {
+        position: absolute;
+        right: -440px;
+        top: -40px;
+    }
+
+    .position-line2 {
+        position: absolute;
+        left: -78px;
+        top: 22px;
+    }
+
+    .cuadro {
+        width: 480px;
+        height: 140vh;
+        transform: rotate(-30deg);
+        position: absolute;
+        top: 130px;
+        left: -210px;
+    }
+}
+
+
+.formulario {
+    // background: red;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-button {
+    height: 31px;
+    width: 202px;
+    border-radius: 12px;
+
+}
+
+
+.p-inputtext {
+    margin: 0;
+    font-size: 20px;
+    padding: 2px;
+    border: none;
+    // border-bottom: 1px solid black;
+    border-radius: 0;
+    background: transparent;
+    width: 240px;
+    margin-top: 5px;
+}
+
+.p-dropdown {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 84%;
+    border-radius: 0;
+}
+
+.campos{
+    margin-top: 20px;
+}
+
+// .p-dropdown .p-dropdown-trigger {
+//     position: relative;
+//     right: 31px;
+// }

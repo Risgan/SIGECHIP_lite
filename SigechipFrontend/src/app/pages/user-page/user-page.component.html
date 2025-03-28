@@ -1,0 +1,65 @@
+<p-toast />
+
+<div class="card">
+    <h2 class="text-center">Formulario de Propietario</h2>
+    <form [formGroup]="propietarioForm" (ngSubmit)="onSubmit()">
+        <div class="p-fluid p-formgrid p-grid">
+            <!-- Tipo de Documento -->
+            <div class="p-field p-col-12 p-md-6">
+                <label for="tipodocumento">Tipo de Documento</label>
+                <p-dropdown id="tipodocumento" formControlName="tipodocumento" [options]="tipoDocumentos"
+                    optionLabel="name" placeholder="Seleccione tipo de documento" required></p-dropdown>
+            </div>
+
+            <!-- Documento -->
+            <div class="p-field p-col-12 p-md-6">
+                <label for="documento">Número de Documento</label>
+                <input id="documento" type="number" pInputText formControlName="documento" required
+                    placeholder="Ingrese el documento" />
+            </div>
+
+            <!-- Nombre -->
+            <div class="p-field p-col-12 p-md-6">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" pInputText formControlName="nombre" required
+                    placeholder="Ingrese su nombre" />
+            </div>
+
+            <!-- Apellido -->
+            <div class="p-field p-col-12 p-md-6">
+                <label for="apellido">Apellido</label>
+                <input id="apellido" type="text" pInputText formControlName="apellido" required
+                    placeholder="Ingrese su apellido" />
+            </div>
+
+            <!-- Celular -->
+            <div class="p-field p-col-12 p-md-6">
+                <label for="celular">Celular</label>
+                <input id="celular" type="number" pInputText formControlName="celular" required
+                    placeholder="Ingrese el celular" />
+            </div>
+
+            <!-- Email -->
+            <div class="p-field p-col-12 p-md-6">
+                <label for="email">Correo Electrónico</label>
+                <input id="email" type="email" pInputText formControlName="email" required
+                    placeholder="Ingrese el correo electrónico" />
+            </div>
+
+            <!-- Activo -->
+            <div class="p-field p-col-12 p-md-6">
+                <label for="activo">Activo</label>
+                <p-checkbox id="activo" formControlName="activo" [binary]="true" [trueValue]="true"
+                    [falseValue]="false"></p-checkbox>
+            </div>
+
+            <!-- Botones -->
+            <div>
+                <div class="p-field p-col-12 text-center boton">
+                    <button pButton label="Guardar" icon="pi pi-save" type="submit"
+                        [disabled]="!propietarioForm.valid"></button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

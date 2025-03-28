@@ -1,0 +1,46 @@
+.card {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 2rem;
+    background-color: var(--White);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: var(--AzulTitle);
+    margin-bottom: 1rem;
+  }
+  
+  .p-field {
+    margin-bottom: 1rem;
+  }
+  
+  
+  input.ng-invalid.ng-touched {
+    border-color: var(--Red);
+  }
+  
+  input.ng-valid.ng-touched {
+    border-color: var(--Green);
+  }
+  
+  .p-checkbox input:checked {
+    background-color: var(--AzulClaro);
+  }
+  
+  .p-dropdown {
+    width: 100%;
+  }
+  
+  
+.boton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-button {
+  width: auto;
+}

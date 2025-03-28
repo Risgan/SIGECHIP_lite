@@ -1,0 +1,38 @@
+<p-toast />
+<div class="nav bgcolorazulclaro">
+    <div class="izquierda">
+        <div class="menu">
+            <div class="button">
+                <p-button icon="pi pi-bars" (onClick)="menu.toggle($event)" [outlined]="true" severity="contrast" />
+                <p-menu #menu [model]="items" [popup]="true" />
+            </div>
+        </div>
+        <div class="nav-logo">
+            <img src="/assets/Images/Logo2.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="derecha">
+        <div class="nombre">
+            @if (propietario) {
+                {{propietario.nombre}} {{propietario.apellido}} 
+            }
+        </div>
+        <div class="buscador">
+            <p-confirmPopup />
+            <p-button icon="pi pi-id-card" [style]="{'color': 'var(--white)'}" [outlined]="true" severity="contrast"
+                (click)="showCardId($event)" />
+        </div>
+
+        <div class="usuario">
+            <p-button icon="pi pi-user" [style]="{'color': 'var(--white)'}" [outlined]="true" severity="contrast" (onClick)="redirect('/user')" />
+        </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<p-dialog header="Buscar Por ID Mascota" [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }">
+    <app-pet-search (idEmitido)="searchByIdCard($event)"></app-pet-search>
+</p-dialog>

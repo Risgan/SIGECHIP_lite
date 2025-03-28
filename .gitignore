@@ -1,0 +1,7 @@
+/SigechipBackend/.vs
+/SigechipBackend/sigechip.API/obj
+/SigechipBackend/sigechip.API/bin
+
+**/bin/
+**/obj/
+**/.vs/

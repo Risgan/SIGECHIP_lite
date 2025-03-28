@@ -1,0 +1,152 @@
+.detail-container {
+  background: var(--LilaClaro);
+  width: 100%;
+  height: 95vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-card {
+  background: var(--White);
+  width: 1248px;
+  height: 750px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.detail-card-toggle{
+  // background: var(--White);
+  // width: 1248px;
+  // height: 750px;
+  // border-radius: 25px;
+  // box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.detail-title {
+  color: #0028A1;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.detail-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  height: 70%;
+  // background: red;
+}
+
+.detail-form {
+  width: 50%;
+  padding-top: 30px;
+  // background: blue;
+  padding-left: 30px;
+}
+
+.detail-image {
+  width: 50%;
+  // background: green;
+}
+
+.detail-sub-target {
+  border-radius: 27px;
+  background: var(--Amarillo);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), -5px -5px 18px 6px rgba(0, 0, 0, 0.11) inset;
+  height: 100%;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    border-radius: 80px;
+  }
+
+
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.detail-col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .p-inputtext {
+    width: 100% !important;
+  }
+  
+}
+
+.textarea{
+  background: red;
+}
+
+.p-inputtext {
+  margin: 0;
+  font-size: 20px;
+  padding: 2px;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  background: transparent;
+  width: 240px;
+  margin-top: 5px;
+}
+
+.p-dropdown {
+  border: none;
+
+}
+
+.p-dropdown .p-dropdown-trigger {
+  position: relative;
+  right: 31px;
+}
+
+.floatButton{
+  // background: red;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+
+  .p-button {
+    background: var(--Azul);
+    color: var(--White);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.button-toggle{
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  top: 20px;
+}

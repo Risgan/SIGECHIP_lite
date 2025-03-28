@@ -1,0 +1,19 @@
+<div class="p-fluid p-formgrid p-grid">
+    <div class="p-field p-col-12 icon-pet">
+        <img src="/assets/Images/iconDoc.webp" alt="Icon Doc" />
+    </div>
+    
+    <div class="p-field p-col-12 input-id">
+        <p-floatLabel>
+            <input pInputText class="input-search" id="username" [disabled]="block" [(ngModel)]="idMascota" (keydown.enter)="searchByIdCard()"/>
+            <label for="username">Id Mascota</label>
+        </p-floatLabel>
+        <!-- <label for="idCard">ID Card</label>
+        <input id="idCard" type="text" pInputText /> -->
+    </div>
+    <p class="texto">Ingrese el ID de la mascota o escanee la tarjeta RFID para buscar su información.</p>
+    <div class="p-field p-col-12 input-button">
+        <p-button label="Buscar" icon="pi pi-search" [disabled]="idMascota.length==0" (click)="searchByIdCard()"
+            [loading]="_loadingButton"></p-button>
+    </div>
+</div>
