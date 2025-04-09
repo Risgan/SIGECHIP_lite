@@ -26,49 +26,7 @@ export class LayoutComponent implements OnInit, AfterViewInit, AfterContentInit 
 
   propietario!: Propietario
 
-  items: any[] = [
-    {
-      label: 'Menu',
-      items: [
-        {
-          label: 'Home',
-          icon: 'bi bi-house',
-          command: () => {
-            this.router.navigate(['/home']);
-          }
-        },
-        {
-          label: 'Mascotas',
-          icon: 'bi bi-postcard',
-          command: () => {
-            this.router.navigate(['/pet']);
-          }
-        },
-        {
-          label: 'Contacto',
-          icon: 'bi bi-file-person',
-          command: () => {
-            // this.router.navigate(['/user']);
-            this.router.navigate(['/contact']);
-          }
-        },
-        // {
-        //   label: 'Tarjetas Identificación',
-        //   icon: 'bi bi-credit-card',
-        //   command: () => {
-        //     this.router.navigate(['/cards']);
-        //   }
-        // },
-        {
-          label: 'Cerrar Sesión',
-          icon: 'pi pi-sign-out',
-          command: () => {
-            this.router.navigate(['/login']);
-          }
-        }
-      ]
-    }
-  ]
+  items: any[] = []
 
 
   constructor(
@@ -91,6 +49,7 @@ export class LayoutComponent implements OnInit, AfterViewInit, AfterContentInit 
   }
 
   ngOnInit() {
+    this.checkTokenAndSetupMenu();
   }
 
   showCardId(event: Event) {
@@ -166,5 +125,67 @@ export class LayoutComponent implements OnInit, AfterViewInit, AfterContentInit 
 
   redirect(url: string) {
     this.router.navigate([url]);
+  }
+
+  checkTokenAndSetupMenu(): void {
+    // Verificar si hay un token en el localStorage
+    const token = localStorage.getItem('token');
+
+    // Si hay token, agregar todos los items del menú
+    if (token) {
+      this.items = [
+        {
+          label: 'Menu',
+          items: [
+            {
+              label: 'Home',
+              icon: 'bi bi-house',
+              command: () => this.router.navigate(['/home'])
+            },
+            {
+              label: 'Mascotas',
+              icon: 'bi bi-postcard',
+              command: () => this.router.navigate(['/pet'])
+            },
+            {
+              label: 'Contacto',
+              icon: 'bi bi-file-person',
+              command: () => this.router.navigate(['/contact'])
+            },
+            {
+              label: 'Cerrar Sesión',
+              icon: 'pi pi-sign-out',
+              command: () => this.logout()
+            }
+          ]
+        }
+      ];
+    } else {
+      // Si no hay token, solo mostrar opciones mínimas como "Login" o "Register"
+      this.items = [
+        {
+          label: 'Menu',
+          items: [
+            {
+              label: 'Login',
+              icon: 'pi pi-sign-in',
+              command: () => this.router.navigate(['/login'])
+            },
+            {
+              label: 'Register',
+              icon: 'pi pi-user-plus',
+              command: () => this.router.navigate(['/register'])
+            }
+          ]
+        }
+      ];
+    }
+  }
+
+  logout(): void {
+    // Aquí puedes limpiar el token y redirigir a login
+    localStorage.removeItem('token');
+    localStorage.removeItem('propietario');
+    this.router.navigate(['/login']);
   }
 }

@@ -17,7 +17,7 @@
   position: relative;
 }
 
-.detail-card-toggle{
+.detail-card-toggle {
   // background: var(--White);
   // width: 1248px;
   // height: 750px;
@@ -96,13 +96,14 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+
   .p-inputtext {
     width: 100% !important;
   }
-  
+
 }
 
-.textarea{
+.textarea {
   background: red;
 }
 
@@ -128,7 +129,7 @@
   right: 31px;
 }
 
-.floatButton{
+.floatButton {
   // background: red;
   position: absolute;
   bottom: 15px;
@@ -144,9 +145,102 @@
   }
 }
 
-.button-toggle{
+.button-toggle {
   position: absolute;
   z-index: 1;
-  right: 20px;
-  top: 20px;
+  // right: 20px;
+  // top: 20px;
+  right: 5%;
+  top: 6%;
+}
+
+@media screen and (max-width: 768px) {
+  // .detail-container {
+  //   height: auto;
+  //   position: relative;
+  //   padding: 20px;
+  // }
+
+  .detail-card {
+    width: 80%;
+    height: 90vh;
+    border-radius: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  // .detail-content {
+  //   max-height: 100%;
+  // }
+
+  .detail-title {
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .detail-content {
+    flex-direction: column-reverse;
+    margin: 10px 0;
+    height: auto;
+    align-items: center;
+  }
+
+  .detail-image {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 25px;
+  }
+
+  .detail-form {
+    width: 80%;
+    padding: 0;
+  }
+
+  .detail-sub-target {
+    // margin: 10px 0;
+    height: 80vw;
+
+    // img {
+    //   // width: 100%;
+    //   // max-height: 100%;
+    // }
+  }
+
+  .detail-row {
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: start;
+  }
+
+  // .detail-col {
+  //   width: 100%;
+  // }
+
+  // .textarea {
+  //   width: 100%;
+  // }
+
+  // .p-inputtext {
+  //   width: 100%;
+  // }
+
+  // .floatButton {
+  //   bottom: 10px;
+  //   right: 10px;
+
+  //   .p-button {
+  //     width: 50px;
+  //     height: 50px;
+  //   }
+  // }
+
+  // .button-toggle {
+  //   right: 10px;
+  //   top: 10px;
+  // }
+
+  .button-toggle {
+    right: 2%;
+    top: 6%;
+  }
 }

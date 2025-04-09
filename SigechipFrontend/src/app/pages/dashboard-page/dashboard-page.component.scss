@@ -70,3 +70,22 @@
     color: #666;
     line-height: 1.6;
   }
+
+  @media screen and (max-width: 768px) {
+    .p-carousel img {
+        max-width: 100%;
+        height: auto;
+    }
+    .p-carousel .p-carousel-item {
+        height: 100%;
+    }
+    .p-carousel-prev, .p-carousel-next {
+        svg {
+            width: 2rem;
+            height: 2rem; 
+        }
+    }
+    .p-carousel-prev:hover, .p-carousel-next:hover {
+        color: darkred !important; 
+    }
+  }
