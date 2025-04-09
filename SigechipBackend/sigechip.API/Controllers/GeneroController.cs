@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using sigechip.Core.Application.Interfaces;
 using sigechip.Core.Domain.Entities;
 
@@ -28,6 +29,7 @@ namespace sigechip.API.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create(Genero genero)
         {
             await _service.AddAsync(genero);
@@ -35,6 +37,7 @@ namespace sigechip.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> Update(int id, Genero genero)
         {
             await _service.UpdateAsync(id, genero);
@@ -42,6 +45,7 @@ namespace sigechip.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> Delete(int id)
         {
             await _service.DeleteAsync(id);

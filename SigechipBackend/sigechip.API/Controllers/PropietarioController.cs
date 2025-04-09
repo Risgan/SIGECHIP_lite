@@ -5,6 +5,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 using System;
 using sigechip.Core.Application.DTO.Propietario;
 using sigechip.Core.Application.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace sigechip.API.Controllers
 {
@@ -51,6 +52,7 @@ namespace sigechip.API.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create(PropietarioDto propietario)
         {
 
@@ -80,6 +82,7 @@ namespace sigechip.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> Update(int id, PropietarioUpdateDto propietario)
         {
             var propietarioUpdate = await _service.GetByIdAsync(id); // O como obtienes el propietario actual
@@ -109,6 +112,7 @@ namespace sigechip.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> Delete(int id)
         {
             await _service.DeleteAsync(id);
