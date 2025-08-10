@@ -1,0 +1,9 @@
+{
+    "target_overrides": {
+        "*": {
+            "target.c_lib": "std",
+            "target.printf_lib": "std",
+            "target.device_has_add": ["USBDEVICE"]
+        }
+    }
+}
