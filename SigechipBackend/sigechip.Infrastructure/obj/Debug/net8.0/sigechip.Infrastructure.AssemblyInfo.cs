@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sigechip.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38a15f3d64c147e56ffabea2642bfb23b74189dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45a493ca9713c62e07a9256ce815017f45ba8d68")]
 [assembly: System.Reflection.AssemblyProductAttribute("sigechip.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sigechip.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

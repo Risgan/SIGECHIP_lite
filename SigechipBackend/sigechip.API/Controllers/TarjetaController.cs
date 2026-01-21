@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using sigechip.Core.Application.Interfaces;
 using sigechip.Core.Domain.Entities;
 using System;
@@ -47,6 +48,7 @@ namespace sigechip.API.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create(Tarjeta tarjeta)
         {
             await _service.AddAsync(tarjeta);
@@ -54,6 +56,7 @@ namespace sigechip.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> Update(int id, Tarjeta tarjeta)
         {
             var existingTarjeta = await _service.GetByIdAsync(id);
@@ -68,6 +71,7 @@ namespace sigechip.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> Delete(int id)
         {
             //await _service.DeleteAsync(id);

@@ -1,17 +1,22 @@
 <!-- <p-toast></p-toast> -->
 <p-toast />
 
+@if (mode == 'detail') {
+  <div class="button-toggle">
+    <p-button [label]="this.toggleContact ? 'Ver Mascota' : 'Ver Contacto'" icon="pi pi-sync" (click)="toggle()"></p-button>
+  </div>
+}
 
 @if (!toggleContact) {
 <form [formGroup]="petForm" (ngSubmit)="onSubmit()">
   <div class="detail-container">
     <div class="detail-card">
       <div class="detail-title">
-        @if (mode == 'detail') {
+        <!-- @if (mode == 'detail') {
           <div class="button-toggle">
             <p-button [label]="this.toggleContact ? 'Ver Mascota' : 'Ver Contacto'" icon="pi pi-sync" (click)="toggle()"></p-button>
           </div>
-        }
+        } -->
         <h1>{{nombreMascota}}</h1>
       </div>
       <div class="detail-content">
@@ -131,9 +136,9 @@
 <div class="detail-container">
   <div class="detail-card-toggle">
   <div class="detail-title">
-    <div class="button-toggle">
+    <!-- <div class="button-toggle">
       <p-button [label]="this.toggleContact ? 'Ver Mascota' : 'Ver Contacto'" icon="pi pi-sync" (click)="toggle()"></p-button>
-    </div>
+    </div> -->
     <app-contact-page></app-contact-page>
   </div>
   </div>

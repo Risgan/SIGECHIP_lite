@@ -113,7 +113,7 @@ form {
     border-radius: 0;
 }
 
-.campos{
+.campos {
     margin-top: 20px;
 }
 
@@ -121,3 +121,20 @@ form {
 //     position: relative;
 //     right: 31px;
 // }
+
+@media screen and (max-width: 768px) {
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+}
