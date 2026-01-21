@@ -29,11 +29,15 @@ export class PetPageComponent implements OnInit {
 
   pets: MascotaFull[] = [];
   propietario!: Propietario
+  loadingImages: { [key: number]: boolean } = {}; // Controla el estado de carga de cada imagen
+  imageErrors: { [key: number]: boolean } = {}; // Maneja errores de carga
+  isLoading: boolean = false; // Loading general de la página
 
   displayQrModal: boolean = false; // Controla la visibilidad del modal
   qrData: string = ''; // Datos del QR que se mostrarán
 
   petId: number = 0;
+  placeholderImage = '/assets/Images/placeholder-pet.png'; // Imagen por defecto
 
   constructor(
     private router: Router,
@@ -45,7 +49,7 @@ export class PetPageComponent implements OnInit {
   }
 
   async ngOnInit() {
-
+    this.isLoading = true;
     this.propietario = await this.propietarioService.getPropietarioLogin();
 
     // if (this.propietario) {
@@ -64,12 +68,40 @@ export class PetPageComponent implements OnInit {
 
     if (this.propietario) {
 
-      this.mascotaService.getMascotasByPropietarioId(this.propietario.id).subscribe((pets: MascotaFull[]) => {
-        this.pets = pets;
-        console.log('Mascotas:', this.pets);
-
+      this.mascotaService.getMascotasByPropietarioId(this.propietario.id).subscribe({
+        next: (pets: MascotaFull[]) => {
+          // Inicializar el estado de carga para cada mascota
+          this.pets = pets.map(pet => {
+            this.loadingImages[pet.id] = false;
+            return pet;
+          });
+          console.log('Mascotas:', this.pets);
+          this.isLoading = false;
+        },
+        error: (error) => {
+          console.error('Error al cargar mascotas:', error);
+          this.isLoading = false;
+        }
       });
+    } else {
+      this.isLoading = false;
     }
+  }
+
+  // Método para manejar la carga de imagen
+  onImageLoad(petId: number) {
+    this.loadingImages[petId] = false;
+  }
+
+  // Método para manejar errores de carga
+  onImageError(petId: number) {
+    this.loadingImages[petId] = false;
+    this.imageErrors[petId] = true;
+  }
+
+  // Método para iniciar la carga de una imagen
+  startImageLoad(petId: number) {
+    this.loadingImages[petId] = true;
   }
 
   deletePet(event: Event, pet: any) {

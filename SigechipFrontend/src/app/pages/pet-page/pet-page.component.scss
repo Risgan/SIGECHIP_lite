@@ -117,6 +117,27 @@
 
 
 /* ********* */
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    width: 100%;
+    gap: 20px;
+
+    p {
+        color: var(--AzulTitle);
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
 .head-button {
     display: flex;
     flex-direction: row-reverse;
@@ -193,6 +214,10 @@
 
     width: 80%;
     height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 
@@ -214,6 +239,15 @@
     // overflow: hidden; // Evita que la imagen sobresalga
     // border-radius: 10px; // Opcional, por si quieres esquinas redondeadas
 
+    .image-loading {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--AzulTitle);
+        z-index: 10;
+    }
+
     img {
 
         // border-radius: 33% 42% 40% 65%;
@@ -229,6 +263,11 @@
         width: 100%;
         height: 100%;
         object-fit: cover; // Hace que la imagen llene el espacio sin deformarse
+        transition: opacity 0.3s ease-in-out;
+
+        &.hidden {
+            opacity: 0;
+        }
     }
 }
 
