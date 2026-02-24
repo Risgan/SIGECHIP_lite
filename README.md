@@ -372,14 +372,11 @@ Una vez ejecutado el backend, la documentación Swagger estará disponible en:
 4. Push a la rama
 5. Crear un Pull Request
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
 
 ## 👥 Autores
 
-- **Equipo SIGECHIP** - Desarrollo inicial
+- **John Alvaro Rueda Forero**
 
 ## 🆘 Soporte
 
-Para soporte técnico o reportar bugs, crear un issue en el repositorio o contactar al equipo de desarrollo.
+Para soporte técnico o reportar bugs, crear un issue en el repositorio o contactar al numero 3022867851.
